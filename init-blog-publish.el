@@ -18,7 +18,7 @@
         ("blog-notes"
          :base-directory "~/orgblogs/"
          :base-extension "org"
-         :exclude "index.org"
+         :exclude "index.org\\|frames/*"
          :publishing-directory "~/blog/"
          :recursive t
          :publishing-function org-html-publish-to-html
