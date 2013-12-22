@@ -2,7 +2,7 @@
 /.emacs.desktop
 /auto-save-list
 /.session
-/custom.el
+##/custom.el
 *.elc
 CVS
 .svn
@@ -25,3 +25,4 @@ site-lisp/package/
 /.sqli_history
 /frame-restore-parameters
 /.achievements
+.cache
