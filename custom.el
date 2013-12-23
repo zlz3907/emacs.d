@@ -14,6 +14,8 @@
 ;; (add-to-list 'load-path "~/gnu/plugins/o-blog")
 ;;(require 'o-blog)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 (require 'init-blog-publish)
 
 ;;(require 'twittering-mode)
