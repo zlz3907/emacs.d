@@ -24,7 +24,13 @@
 <p class=\"date\">Date: %d</p>
 <p class=\"creator\">%c</p>
 <p class=\"validation\">%v</p>
-<p>Copyright © 2013 - 2014 Bliss Chung. All rights reserved.</p>")))
+<p>Copyright &#169; 2013 - 2014 Bliss Chung. All rights reserved.</p>
+<script type=\"text/javascript\">
+  var cnzz_protocol = ((\"https:\" == document.location.protocol) ? \" https://\" : \" http://\");
+  document.write(unescape(\"%%3Cspan id='cnzz_stat_icon_1000216635'%%3E%%3C/span%%3E%%3Cscript src='\"
+    + cnzz_protocol
+    + \"s22.cnzz.com/z_stat.php%%3Fid%%3D1000216635%%26show%%3Dpic1' type='text/javascript'%%3E%%3C/script%%3E\"));
+</script>")))
 
 (setq org-publish-project-alist
       '(
@@ -45,7 +51,7 @@
          :sitemap-function org-publish-org-sitemap
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"css/worg.css\" type=\"text/css\" />
+         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg.css\" type=\"text/css\" />
                      <style>
                        body {
                          font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
@@ -71,7 +77,9 @@
          :html-postamble nil
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"css/worg.css\" type=\"text/css\" />
+         :html-head "
+<link rel=\"stylesheet\" title=\"Standard\"
+      href=\"css/worg.css\" type=\"text/css\" />
 <style>
    body {
      font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
@@ -90,7 +98,7 @@
          :recursive t
          :publishing-function org-publish-attachment
          )
-        ("blog" :components ("blog-index" "blog-notes" "blog-static"))
+        ("blog" :components ("blog-notes" "blog-index" "blog-static"))
         ;;
         ))
 
