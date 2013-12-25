@@ -93,7 +93,7 @@
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt"
          :publishing-directory "~/blog/"
          :recursive t
          :publishing-function org-publish-attachment
