@@ -9,14 +9,22 @@
 ;; R Support
 (add-to-list 'load-path "~/gnu/plugins/ess-13.09/lisp")
 (require 'ess-site)
+(setq org-babel-R-command "C:/Progra~1/R/R-3.0.2/bin/x64/R --slave --no-save")
 
 ;; O-Blog Support
 ;; (add-to-list 'load-path "~/gnu/plugins/o-blog")
 ;;(require 'o-blog)
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
-;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+;; (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
+(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 (require 'init-blog-publish)
+
+(org-babel-do-load-languages
+     'org-babel-do-load-languages
+     '(
+       (sh . t)
+       (python . t)
+       ))
 
 ;;(require 'twittering-mode)
 ;;(setq twittering-use-master-password t)
