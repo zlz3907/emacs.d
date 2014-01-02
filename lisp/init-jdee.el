@@ -1,7 +1,9 @@
-;; GLOBAL CONFIGURE
-(setq user-full-name "Zhong Lizhi")
-(setq user-mail-address "zlz.3907@gmail.com")
+;;; init-jdee.el --- Java Env.
 
+;;; Commentary:
+;;
+
+;;; Code:
 ;; jde
 (setq debug-on-error t)
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/jdee/lisp"))
@@ -9,7 +11,9 @@
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/speedbar"))
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/elib"))
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/eieio"))
-(load-file (expand-file-name "~/gnu/plugins/cedet/common/cedet.el"))
+(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/cogre"))
+(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/ede"))
+(load-file "~/gnu/plugins/cedet/common/cedet.el")
 
 ;;(setq defer-loading-jde nil)
 
@@ -18,9 +22,9 @@
     (progn
       (autoload 'jde-mode "jde" "JDE mode." t)
       (setq auto-mode-alist
-	    (append
-	     '(("\\.java\\'" . jde-mode))
-	     auto-mode-alist)))
+            (append
+             '(("\\.java\\'" . jde-mode))
+             auto-mode-alist)))
   (require 'jde))
 ;;(require 'jde)
 
@@ -69,9 +73,6 @@
 (autoload 'jde-junit "jde-junit" "Select jde-junit" t)
 (autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
-
-
-
-
 (provide 'init-jdee)
 
+;;; init-jdee.el ends here
