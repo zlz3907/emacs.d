@@ -5,8 +5,8 @@
 ;; Version: 1.0
 
 ;;; Code:
+;;(require 'ox-publish)
 (require 'ox-publish)
-;;(require 'org-install)
 (setq org-html-postamble-format
       '(("en" "
 <div id=\"disqus_thread\"></div>
