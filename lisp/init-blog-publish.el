@@ -55,7 +55,7 @@
          :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg.css\" type=\"text/css\" />
                      <style>
                        body {
-                         font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+                         font-family: STHeiti, \"Microsoft YaHei\",Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
                          font-size: 16px;line-height: 1.7;
                        }
                        a {color: #6e7d8e;
@@ -83,7 +83,7 @@
       href=\"css/worg.css\" type=\"text/css\" />
 <style>
    body {
-     font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+     font-family: STHeiti, \"Microsoft YaHei\",Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
      font-size: 16px;line-height: 1.7;
    }
    a {color: #6e7d8e;
