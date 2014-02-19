@@ -39,7 +39,7 @@
          :base-directory "~/orgblogs/"
          :base-extension "org"
          :exclude "index.org\\|frames/*"
-         :publishing-directory "~/blog/"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
          :headline-levels 4
@@ -69,7 +69,7 @@
          :base-directory "~/orgblogs/"
          :base-extension "noexport"
          :include ("index.org")
-         :publishing-directory "~/blog/"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
          :headline-levels 4
@@ -94,8 +94,8 @@
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-         :publishing-directory "~/blog/"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-publish-attachment
          )
