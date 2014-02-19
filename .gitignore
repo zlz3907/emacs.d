@@ -27,5 +27,8 @@ site-lisp/package/
 /.achievements
 *.cache
 /.bookmarks.el
+
 /eshell
 
+
+/history
