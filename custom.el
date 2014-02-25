@@ -6,6 +6,9 @@
 
 ;;; Code:
 
+;; git comp
+(require 'pcmpl-git)
+
 ;; GLOBAL CONFIGURE
 (setq user-full-name "Zhong Lizhi")
 (setq user-mail-address "zlz.3907@gmail.com")
@@ -67,7 +70,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(css-indent-offset 2)
- '(custom-enabled-themes (quote (sanityinc-tomorrow-blue)))
+ '(custom-enabled-themes (quote (wombat)))
  '(custom-safe-themes (quote ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(indent-tabs-mode nil)
  '(jde-ant-args "-emacs")
@@ -86,7 +89,9 @@
  '(nxml-child-indent 2)
  '(org-agenda-files (quote ("~/agenda/2014.org")))
  '(org-time-stamp-custom-formats (quote ("<%Y-%m-%d %w>" . "<%Y-%m-%d %R %w>")))
+ '(pcomplete-cycle-completions nil)
  '(selection-coding-system (quote utf-16le-dos))
+ '(semantic-idle-scheduler-idle-time 300)
  '(session-use-package t nil (session))
  '(standard-indent 2)
  '(tab-stop-list (quote (2 4 6 8 10 12 14 16 18 20 22 24 26 28 30)))
