@@ -85,6 +85,7 @@
  '(jde-run-option-vm-args (quote ("-Duser.language=en")))
  '(js-auto-indent-flag nil)
  '(js-indent-level 2 t)
+ '(large-file-warning-threshold 60000000)
  '(make-backup-files nil)
  '(nxml-child-indent 2)
  '(org-agenda-files (quote ("~/agenda/2014.org")))
