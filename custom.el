@@ -6,6 +6,9 @@
 
 ;;; Code:
 
+;; git completion
+(require 'pcmpl-git)
+
 ;; GLOBAL CONFIGURE
 (setq user-full-name "Zhong Lizhi")
 (setq user-mail-address "zlz.3907@gmail.com")
@@ -44,6 +47,8 @@
         (latex . t)
         (R . t)))
 
+(require 'ox-taskjuggler)
+
 ;;(require 'twittering-mode)
 ;;(setq twittering-use-master-password t)
 (require 'init-youdao-dict)
@@ -57,14 +62,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(browse-url-temp-dir "~/tmp/")
- '(custom-enabled-themes (quote (sanityinc-tomorrow-blue)))
- '(custom-safe-themes (quote ("82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(elfeed-feeds (quote ("http://www.infoq.com/cn/feed?token=A1EBwUuLqFnk6dcHrODaIjx3jvaUr7O1" "http://www.reddit.com/r/emacs/.rss" "https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCoQFjAA&url=%68%74%74%70%3a%2f%2f%77%77%77%2e%72%65%64%64%69%74%2e%63%6f%6d%2f%72%2f%65%6d%61%63%73%2f%2e%72%73%73&ei=uHIHU52nEIWPkAWxsIHIBw&usg=AFQjCNFmrFfF9u9KM6Du6X1jv-Rwmnq64Q&sig2=9i9kXpjY_zJ67Z8X4c4T1A")))
- '(jde-junit-testrunner-type "org.junit.runner.JUnitCore")
- '(org-agenda-files (quote ("~/workspace/agenda/2014.org")))
- '(org-babel-remote-temporary-directory "~/tmp/")
- '(org-time-stamp-custom-formats (quote ("<%m/%d/%y %u>" . "<%m/%d/%y %u %H:%M>")))
+ '(custom-enabled-themes (quote (wombat)))
+ '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
+ '(jde-checkstyle-finish-hook nil)
+ '(jde-checkstyle-style "~/gnu/plugins/jdee/java/lib/sun_checks.xml")
+ '(large-file-warning-threshold 60000000)
+ '(org-export-backends (quote (ascii html icalendar latex taskjuggler)))
+ '(org-taskjuggler-valid-resource-attributes (quote (limits vacation shift booking efficiency journalentry rate workinghours flags chargeset email fail leaveallowance leaves managers purge resource shifts supplement vacation warn workinghours)))
+ '(semantic-idle-scheduler-idle-time 432000)
+ '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

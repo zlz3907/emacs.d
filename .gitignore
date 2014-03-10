@@ -28,4 +28,4 @@ site-lisp/package/
 *.cache
 /.bookmarks.el
 /history
-
+/elpa-bak
