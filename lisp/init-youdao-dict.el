@@ -10,7 +10,9 @@
   "WORD Use python script dict to look up word under point."
   (interactive)
   (or word (setq word (current-word)))
-  (shell-command (format "python ~/gnu/plugins/dict/zdict.py %s %s" word "False")))
+  (tooltip-show
+   (shell-command-to-string
+    (format "python ~/gnu/plugins/dict/zdict.py %s %s" word "False"))))
 
 (global-set-key [f7] 'yodao-dict-search-wordap)
 
