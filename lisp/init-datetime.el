@@ -5,11 +5,11 @@
 ;; Version: 1.0
 
 ;;; Code:
-(defvar z-simple-date-format "%Y-%m-%d %w"
+(defvar z-simple-date-format "%Y-%m-%d %a"
   "Format of date to insert with 'insert-current-date-time' function.
 See help of 'format-time-string' for possible replacements")
 
-(defvar z-simple-time-format "%Y-%m-%d %R %w"
+(defvar z-simple-time-format "%Y-%m-%d %a %R"
   "Format of date to insert with 'insert-current-time' function.
 Note the weekly scope of the command's precision.")
 
@@ -18,13 +18,15 @@ Note the weekly scope of the command's precision.")
 Uses 'current-date-time-format' for the formatting the date/time."
   (interactive)
   ; (insert (let () (comment-start)))
-  (insert (format-time-string z-simple-date-format (current-time)))
+  (insert (concat "<" (format-time-string
+                       z-simple-date-format (current-time)) ">"))
   )
 
 (defun insert-current-time ()
   "Insert the current time (1-week scope) into the current buffer."
   (interactive)
-  (insert (format-time-string z-simple-time-format (current-time)))
+  (insert (concat "<" (format-time-string
+                       z-simple-time-format (current-time)) ">"))
   )
 
 (global-set-key "\C-cd" 'insert-current-date-time)
