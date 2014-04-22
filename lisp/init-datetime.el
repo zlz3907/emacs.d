@@ -5,11 +5,11 @@
 ;; Version: 1.0
 
 ;;; Code:
-(defvar z-simple-date-format "%Y-%m-%d %w"
+(defvar z-simple-date-format "%Y-%m-%d %a"
   "Format of date to insert with 'insert-current-date-time' function.
 See help of 'format-time-string' for possible replacements")
 
-(defvar z-simple-time-format "%Y-%m-%d %R %w"
+(defvar z-simple-time-format "%Y-%m-%d %a %R"
   "Format of date to insert with 'insert-current-time' function.
 Note the weekly scope of the command's precision.")
 

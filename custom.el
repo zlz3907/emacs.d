@@ -64,6 +64,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (wombat)))
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
+ '(global-linum-mode t)
  '(jde-checkstyle-finish-hook nil)
  '(jde-checkstyle-style "~/gnu/plugins/jdee/java/lib/sun_checks.xml")
  '(large-file-warning-threshold 60000000)
