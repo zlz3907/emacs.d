@@ -26,9 +26,12 @@
 
 ;;; When we start working on git-backed files, use git-wip if available
 
-(after-load 'vc-git
+(after-load 'magit
   (global-magit-wip-save-mode)
   (diminish 'magit-wip-save-mode))
+
+(after-load 'magit
+  (diminish 'magit-auto-revert-mode))
 
 
 (when *is-a-mac*
