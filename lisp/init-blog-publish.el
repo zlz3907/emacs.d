@@ -5,7 +5,8 @@
 ;; Version: 1.0
 
 ;;; Code:
-(require 'org-publish)
+;;(require 'ox-publish)
+(require 'ox-publish)
 (setq org-html-postamble-format
       '(("en" "
 <div id=\"disqus_thread\"></div>
@@ -38,7 +39,7 @@
          :base-directory "~/orgblogs/"
          :base-extension "org"
          :exclude "index.org\\|frames/*"
-         :publishing-directory "~/blog/"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
          :headline-levels 4
@@ -51,24 +52,14 @@
          :sitemap-function org-publish-org-sitemap
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg.css\" type=\"text/css\" />
-                     <style>
-                       body {
-                         font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
-                         font-size: 16px;line-height: 1.7;
-                       }
-                       a {color: #6e7d8e;
-                         ext-decoration: none;
-                         font-weight: bold;
-                       }
-                     </style>"
+         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg-3zso.css\" type=\"text/css\" />"
          ;;:sitemap-style ;'("~/orgblogs/css/")
          )
         ("blog-index"
          :base-directory "~/orgblogs/"
          :base-extension "noexport"
          :include ("index.org")
-         :publishing-directory "~/blog/"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
          :headline-levels 4
@@ -77,24 +68,12 @@
          :html-postamble nil
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "
-<link rel=\"stylesheet\" title=\"Standard\"
-      href=\"css/worg.css\" type=\"text/css\" />
-<style>
-   body {
-     font-family: Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
-     font-size: 16px;line-height: 1.7;
-   }
-   a {color: #6e7d8e;
-     ext-decoration: none;
-     font-weight: bold;
-   }
-</style>"
+         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"css/worg-3zso.css\" type=\"text/css\" />"
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt"
-         :publishing-directory "~/blog/"
+         :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-publish-attachment
          )

@@ -12,6 +12,7 @@
 ;; GLOBAL CONFIGURE
 (setq user-full-name "Zhong Lizhi")
 (setq user-mail-address "zlz.3907@gmail.com")
+(set-locale-environment "ENU")
 
 ;; bind insert datetime keys
 (require 'init-datetime)
@@ -44,7 +45,7 @@
         (ditaa . t)
         (python . t)
         (sh . t)
-        (latex . t)
+        ;;(latex . t)
         (R . t)))
 
 (require 'ox-taskjuggler)
@@ -62,16 +63,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (wombat)))
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(global-linum-mode t)
- '(jde-checkstyle-finish-hook nil)
- '(jde-checkstyle-style "~/gnu/plugins/jdee/java/lib/sun_checks.xml")
- '(large-file-warning-threshold 60000000)
- '(org-export-backends (quote (ascii html icalendar latex taskjuggler)))
- '(org-taskjuggler-valid-resource-attributes (quote (limits vacation shift booking efficiency journalentry rate workinghours flags chargeset email fail leaveallowance leaves managers purge resource shifts supplement vacation warn workinghours)))
- '(semantic-idle-scheduler-idle-time 432000)
- '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
