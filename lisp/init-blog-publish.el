@@ -52,17 +52,7 @@
          :sitemap-function org-publish-org-sitemap
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg.css\" type=\"text/css\" />
-                     <style>
-                       body {
-                         font-family: STHeiti, \"Microsoft YaHei\",Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
-                         font-size: 16px;line-height: 1.7;
-                       }
-                       a {color: #6e7d8e;
-                         ext-decoration: none;
-                         font-weight: bold;
-                       }
-                     </style>"
+         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg-3zso.css\" type=\"text/css\" />"
          ;;:sitemap-style ;'("~/orgblogs/css/")
          )
         ("blog-index"
@@ -78,19 +68,7 @@
          :html-postamble nil
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "
-<link rel=\"stylesheet\" title=\"Standard\"
-      href=\"css/worg.css\" type=\"text/css\" />
-<style>
-   body {
-     font-family: STHeiti, \"Microsoft YaHei\",Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
-     font-size: 16px;line-height: 1.7;
-   }
-   a {color: #6e7d8e;
-     ext-decoration: none;
-     font-weight: bold;
-   }
-</style>"
+         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"css/worg-3zso.css\" type=\"text/css\" />"
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
