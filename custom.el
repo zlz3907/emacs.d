@@ -13,7 +13,10 @@
 (setq user-full-name "Zhong Lizhi")
 (setq user-mail-address "zlz.3907@gmail.com")
 (set-locale-environment "ENU")
-
+(setq chinese-calendar-celestial-stem
+["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
+(setq chinese-calendar-terrestrial-branch
+["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
 ;; bind insert datetime keys
 (require 'init-datetime)
 
@@ -49,6 +52,7 @@
         (sh . t)
         (R . t)))
 (require 'ox-taskjuggler)
+(require 'init-zorg-capture)
 
 ;;(require 'twittering-mode)
 ;;(setq twittering-use-master-password t)
