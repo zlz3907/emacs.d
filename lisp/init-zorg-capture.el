@@ -29,8 +29,14 @@
          (file+datetree
           (concat zorgcapture-basepath "journal.org"))
          "* %?\n :PROPERTIES:\n :LINK: %a\n :ENTEREDON: %U\n :END: %i")
+        ("w" "Work" entry
+         (file+headline
+          (concat zorgcapture-basepath "work.org") "Work")
+         "* TODO %?\n :PROPERTIES:\n :LINK: %a\n :ENTEREDON: %U\n :END: %i")
         ("n" "Note" entry
          (file+headline
           (concat zorgcapture-basepath "note.org") "Notes")
          "* %?\n :PROPERTIES:\n :LINK: %a\n :ENTEREDON: %U\n :END: %i")))
+
+(provide 'init-zorg-capture)
 ;;; init-zorg-capture.el ends here
