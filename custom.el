@@ -6,6 +6,9 @@
 
 ;;; Code:
 
+;; add my lisp
+(add-to-list 'load-path (expand-file-name "z-lisp" user-emacs-directory))
+
 ;; git completion
 (require 'pcmpl-git)
 
@@ -13,7 +16,10 @@
 (setq user-full-name "Zhong Lizhi")
 (setq user-mail-address "zlz.3907@gmail.com")
 (set-locale-environment "ENU")
-
+(setq chinese-calendar-celestial-stem
+["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
+(setq chinese-calendar-terrestrial-branch
+["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
 ;; bind insert datetime keys
 (require 'init-datetime)
 
@@ -65,7 +71,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (sanityinc-solarized-light)))
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
+ '(large-file-warning-threshold 60000000)
+ '(org-agenda-files (quote ("/home/lizhi/org/2014")))
+ '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+ '(semantic-idle-scheduler-idle-time 3600)
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
