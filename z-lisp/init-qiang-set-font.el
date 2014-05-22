@@ -5,6 +5,7 @@
 ;; Version: 1.0
 
 ;;; Code:
+(eval-when-compile (require 'cl))
 (defun qiang-font-existsp (font)
   (if (null (x-list-fonts font))
       nil

@@ -22,9 +22,9 @@
     (progn
       (autoload 'jde-mode "jde" "JDE mode." t)
       (setq auto-mode-alist
-            (append
-             '(("\\.java\\'" . jde-mode))
-             auto-mode-alist)))
+	    (append
+	     '(("\\.java\\'" . jde-mode))
+	     auto-mode-alist)))
   (require 'jde))
 ;;(require 'jde)
 
@@ -76,3 +76,4 @@
 (provide 'init-jdee)
 
 ;;; init-jdee.el ends here
+

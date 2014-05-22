@@ -18,15 +18,13 @@ Note the weekly scope of the command's precision.")
 Uses 'current-date-time-format' for the formatting the date/time."
   (interactive)
   ; (insert (let () (comment-start)))
-  (insert (concat "<" (format-time-string
-                       z-simple-date-format (current-time)) ">"))
+  (insert (format-time-string z-simple-date-format (current-time)))
   )
 
 (defun insert-current-time ()
   "Insert the current time (1-week scope) into the current buffer."
   (interactive)
-  (insert (concat "<" (format-time-string
-                       z-simple-time-format (current-time)) ">"))
+  (insert (format-time-string z-simple-time-format (current-time)))
   )
 
 (global-set-key "\C-cd" 'insert-current-date-time)
