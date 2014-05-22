@@ -83,7 +83,9 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (sanityinc-solarized-light)))
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(org-agenda-files (quote ("~/agenda" "~/org")))
+ '(jde-ant-home "~/apache/ant")
+ '(org-agenda-files (quote ("~/org/2014")))
+ '(org-mobile-directory "E:/Dropbox/Apps/MobileOrg")
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
