@@ -33,3 +33,6 @@ site-lisp/package/
 
 /history
 /helm-adaptive-history
+/thumbs/
+/emms/
+/.smex-items
