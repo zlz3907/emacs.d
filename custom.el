@@ -73,8 +73,9 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (sanityinc-solarized-light)))
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
- '(large-file-warning-threshold 60000000)
  '(jde-ant-home "~/apache/ant")
+ '(jde-jdk-doc-url "http://docs.oracle.com/javase/7/docs/api/")
+ '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "E:/Dropbox/Apps/MobileOrg")
  '(semantic-idle-scheduler-idle-time 3600)
