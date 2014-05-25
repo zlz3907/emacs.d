@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ customize-variable
+ revert-buffer
+ customize-group
+ linum-mode
+ gud-gdb
+ whitespace-cleanup
+ R
+)
+
+;; ----- smex-data -----
+(
+ (linum-mode . 2)
+ (customize-variable . 26)
+ (whitespace-cleanup . 1)
+ (jde-load-project-file . 16)
+ (revert-buffer . 2)
+ (gud-gdb . 1)
+ (jde-build . 5)
+ (jde-ant-build . 1)
+ (jde-ant-show-options . 1)
+ (jde-find-class-source . 18)
+ (jde-show-help . 1)
+ (jde-find . 2)
+ (jde-show-class-source . 1)
+ (customize-group . 2)
+)
