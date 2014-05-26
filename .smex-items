@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ org-mobile-push
+ auto-fill-mode
+ gnus
  customize-variable
  revert-buffer
  customize-group
  linum-mode
- gud-gdb
- whitespace-cleanup
- R
 )
 
 ;; ----- smex-data -----
@@ -26,4 +26,7 @@
  (jde-find . 2)
  (jde-show-class-source . 1)
  (customize-group . 2)
+ (gnus . 1)
+ (auto-fill-mode . 1)
+ (org-mobile-push . 1)
 )

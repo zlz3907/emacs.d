@@ -14,7 +14,7 @@
                 (region-beginning) (region-end))
              (current-word))))
   (message word)
-  (tooltip-show
+  (popup-tip
    (shell-command-to-string
     (format "python ~/gnu/plugins/dict/zdict.py '%s' %s" word "False"))))
 
