@@ -79,6 +79,7 @@
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "E:/Dropbox/Apps/MobileOrg")
  '(semantic-idle-scheduler-idle-time 3600)
+ '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
