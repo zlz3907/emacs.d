@@ -10,16 +10,20 @@
 (add-to-list 'load-path (expand-file-name "z-lisp" user-emacs-directory))
 
 ;; git completion
-(require 'pcmpl-git)
+;;(require 'pcmpl-git)
 
 ;; GLOBAL CONFIGURE
-(setq user-full-name "Zhong Lizhi")
-(setq user-mail-address "zlz.3907@gmail.com")
+(setq user-full-name "Bliss Chung")
+(setq user-mail-address "bliss@3zso.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
 ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
 (setq chinese-calendar-terrestrial-branch
 ["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
+
+;; email
+(require 'init-mail)
+
 ;; bind insert datetime keys
 (require 'init-datetime)
 

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- org-mobile-push
- auto-fill-mode
+ gnus-topic-mode
+ gnus-topic-menu
  gnus
- customize-variable
- revert-buffer
- customize-group
- linum-mode
+ eval-buffer
+ mail
+ ediff-revision
+ org-mobile-push
 )
 
 ;; ----- smex-data -----
@@ -26,7 +26,12 @@
  (jde-find . 2)
  (jde-show-class-source . 1)
  (customize-group . 2)
- (gnus . 1)
+ (gnus . 7)
  (auto-fill-mode . 1)
  (org-mobile-push . 1)
+ (ediff-revision . 2)
+ (eval-buffer . 4)
+ (mail . 13)
+ (gnus-topic-menu . 1)
+ (gnus-topic-mode . 2)
 )
