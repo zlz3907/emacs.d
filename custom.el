@@ -20,6 +20,10 @@
 ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
 (setq chinese-calendar-terrestrial-branch
 ["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
+
+;; email
+(require 'init-mail)
+
 ;; bind insert datetime keys
 (require 'init-datetime)
 
@@ -75,11 +79,13 @@
  '(custom-safe-themes (quote ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(jde-ant-home "~/apache/ant")
  '(jde-jdk-doc-url "http://docs.oracle.com/javase/7/docs/api/")
+ '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/*/*/*/*/sources/*.jar")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "E:/Dropbox/Apps/MobileOrg")
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
+ '(send-mail-function nil)
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
