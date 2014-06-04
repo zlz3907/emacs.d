@@ -13,8 +13,8 @@
 ;;(require 'pcmpl-git)
 
 ;; GLOBAL CONFIGURE
-(setq user-full-name "Zhong Lizhi")
-(setq user-mail-address "zlz.3907@gmail.com")
+(setq user-full-name "Bliss Chung")
+(setq user-mail-address "bliss@3zso.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
 ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])

@@ -14,11 +14,11 @@
                 (region-beginning) (region-end))
              (current-word))))
   (message word)
-  (tooltip-show
+  (popup-tip
    (shell-command-to-string
     (format "python ~/gnu/plugins/dict/zdict.py '%s' %s" word "False"))))
 
-(global-set-key [f7] 'yodao-dict-search-wordap)
+(global-set-key [f6] 'yodao-dict-search-wordap)
 
 (provide 'init-youdao-dict)
 
