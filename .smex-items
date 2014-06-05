@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- gnus-topic-mode
- gnus-topic-menu
+ ediff-revision
+ replace-string
  gnus
  eval-buffer
+ customize-variable
  mail
- ediff-revision
- org-mobile-push
+ linum-mode
 )
 
 ;; ----- smex-data -----
@@ -15,13 +15,13 @@
  (linum-mode . 2)
  (customize-variable . 26)
  (whitespace-cleanup . 1)
- (jde-load-project-file . 16)
+ (jde-load-project-file . 19)
  (revert-buffer . 2)
  (gud-gdb . 1)
  (jde-build . 5)
  (jde-ant-build . 1)
- (jde-ant-show-options . 1)
- (jde-find-class-source . 18)
+ (jde-ant-show-options . 2)
+ (jde-find-class-source . 21)
  (jde-show-help . 1)
  (jde-find . 2)
  (jde-show-class-source . 1)
@@ -29,9 +29,11 @@
  (gnus . 7)
  (auto-fill-mode . 1)
  (org-mobile-push . 1)
- (ediff-revision . 2)
+ (ediff-revision . 3)
  (eval-buffer . 4)
  (mail . 13)
  (gnus-topic-menu . 1)
  (gnus-topic-mode . 2)
+ (replace-string . 3)
+ (jde-import-all . 3)
 )
