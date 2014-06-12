@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- ediff-revision
- replace-string
+ org-publish-project
+ auto-fill-mode
  gnus
- eval-buffer
- customize-variable
- mail
- linum-mode
+ org-mobile-push
+ erc
+ replace-string
+ delete-file
 )
 
 ;; ----- smex-data -----
@@ -26,14 +26,17 @@
  (jde-find . 2)
  (jde-show-class-source . 1)
  (customize-group . 2)
- (gnus . 7)
- (auto-fill-mode . 1)
- (org-mobile-push . 1)
+ (gnus . 9)
+ (auto-fill-mode . 3)
+ (org-mobile-push . 3)
  (ediff-revision . 3)
  (eval-buffer . 4)
  (mail . 13)
  (gnus-topic-menu . 1)
  (gnus-topic-mode . 2)
- (replace-string . 3)
+ (replace-string . 7)
  (jde-import-all . 3)
+ (org-publish-project . 56)
+ (delete-file . 2)
+ (erc . 3)
 )

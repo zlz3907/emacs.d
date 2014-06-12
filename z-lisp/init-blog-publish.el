@@ -38,7 +38,7 @@
         ("blog-notes"
          :base-directory "~/orgblogs/"
          :base-extension "org"
-         :exclude "index.org\\|frames/*"
+         :exclude "index.org\\|frames/*\\|blog.org"
          :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
@@ -52,13 +52,19 @@
          :sitemap-function org-publish-org-sitemap
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"http://blog.3zso.com/css/worg-3zso.css\" type=\"text/css\" />"
+         :html-head "
+<link rel=\"stylesheet\" href=\"http://3zso.com/css/worg-3zso.css\">
+<link rel=\"stylesheet\" href=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap-theme.min.css\">
+<script src=\"http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js\"></script>
+<script src=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js\"></script>
+"
          ;;:sitemap-style ;'("~/orgblogs/css/")
          )
         ("blog-index"
          :base-directory "~/orgblogs/"
          :base-extension "noexport"
-         :include ("index.org")
+         :include ("index.org" "blog.org")
          :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-html-publish-to-html
@@ -68,7 +74,13 @@
          :html-postamble nil
          :author "Bliss Chung"
          :email "bliss@3zso.com"
-         :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"css/worg-3zso.css\" type=\"text/css\" />"
+         :html-head "
+<link rel=\"stylesheet\" href=\"http://3zso.com/css/worg-3zso.css\">
+<link rel=\"stylesheet\" href=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap-theme.min.css\">
+<script src=\"http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js\"></script>
+<script src=\"http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js\"></script>
+"
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
