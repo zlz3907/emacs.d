@@ -67,6 +67,7 @@
 (require 'init-php)
 (require 'init-org)
 (require 'init-nxml)
+(require 'init-html)
 (require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
@@ -142,4 +143,3 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
-(put 'dired-find-alternate-file 'disabled nil)

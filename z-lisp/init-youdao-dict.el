@@ -20,6 +20,12 @@
 
 (global-set-key [f7] 'yodao-dict-search-wordap)
 
+(defun fy ()
+  "Invoke yodao-dict-search-wordap."
+  (interactive)
+  (yodao-dict-search-wordap
+   (read-from-minibuffer "Translation Word: ")))
+
 (provide 'init-youdao-dict)
 
 ;;; init-youdao-dict.el ends here

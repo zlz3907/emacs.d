@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- org-publish-project
+ ediff-revision
  auto-fill-mode
- gnus
- org-mobile-push
+ fy
+ yodao-dict-search-wordap
+ python-mode
  erc
- replace-string
- delete-file
+ org-publish-project
 )
 
 ;; ----- smex-data -----
@@ -27,9 +27,9 @@
  (jde-show-class-source . 1)
  (customize-group . 2)
  (gnus . 9)
- (auto-fill-mode . 3)
+ (auto-fill-mode . 4)
  (org-mobile-push . 3)
- (ediff-revision . 3)
+ (ediff-revision . 4)
  (eval-buffer . 4)
  (mail . 13)
  (gnus-topic-menu . 1)
@@ -38,5 +38,8 @@
  (jde-import-all . 3)
  (org-publish-project . 56)
  (delete-file . 2)
- (erc . 3)
+ (erc . 4)
+ (python-mode . 1)
+ (yodao-dict-search-wordap . 2)
+ (fy . 8)
 )
