@@ -36,3 +36,8 @@ site-lisp/package/
 /thumbs/
 /emms/
 
+/.smex-items
+/.Rhistory
+/abbrev_defs
+/TAGS
+/eshell
