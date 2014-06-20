@@ -67,6 +67,7 @@
 (require 'init-php)
 (require 'init-org)
 (require 'init-nxml)
+(require 'init-html)
 (require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
@@ -90,7 +91,7 @@
 (require 'init-misc)
 
 (require 'init-dash)
-;;(require 'init-ledger)
+(require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
@@ -142,4 +143,3 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
-(put 'dired-find-alternate-file 'disabled nil)

@@ -74,8 +74,6 @@
 (autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
 ;; my script
-(defvar prj-global-sourcepath
-  '("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/*/*/*/*/sources/*.jar"))
 
 (defun prj-build (buildfile target &optional interactive-args)
   "Invoke ant build."

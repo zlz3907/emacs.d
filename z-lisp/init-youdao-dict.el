@@ -1,10 +1,11 @@
 ;;; init-youdao-dict.el --- Dict
 
 ;;; Commentary:
-;; Youdao dict
 ;;
 
 ;;; Code:
+
+;; Youdao dict
 (defun yodao-dict-search-wordap (&optional word)
   "WORD Use python script dict to look up word under point."
   (interactive)
@@ -18,6 +19,12 @@
     (format "python ~/gnu/plugins/dict/zdict.py '%s' %s" word "False"))))
 
 (global-set-key [f7] 'yodao-dict-search-wordap)
+
+(defun fy ()
+  "Invoke yodao-dict-search-wordap."
+  (interactive)
+  (yodao-dict-search-wordap
+   (read-from-minibuffer "Translation Word: ")))
 
 (provide 'init-youdao-dict)
 
