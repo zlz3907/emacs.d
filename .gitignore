@@ -41,3 +41,4 @@ site-lisp/package/
 /abbrev_defs
 /TAGS
 /eshell
+/z-lisp/init-mail.el

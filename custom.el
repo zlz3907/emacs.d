@@ -38,14 +38,18 @@
 
 (require 'init-qiang-set-font)
 (qiang-set-font
-;; '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
- '("Ubuntu Mono" "Monospace" "Tahama" "Verdana" "Courier New")
+ ;;'("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
+ ;;'("serif" "Tahama" "Verdana" "Courier New")
+ '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
  ":pixelsize=16"
  '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
 
 ;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 (add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+
+;; plantuml
+(require 'init-plantuml)
 
 (require 'init-blog-publish)
 (org-babel-do-load-languages
@@ -56,6 +60,7 @@
         (python . t)
         (sh . t)
         ;;(latex . t)
+        (plantuml . t)
         (R . t)))
 
 (require 'ox-taskjuggler)
@@ -68,7 +73,7 @@
 (require 'init-jdee)
 
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
-;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -90,6 +95,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+)
 
 ;;; custom.el ends here
