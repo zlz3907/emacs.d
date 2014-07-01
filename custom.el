@@ -44,6 +44,9 @@
 (add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 (add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 
+;; plantuml
+(require 'init-plantuml)
+
 (require 'init-blog-publish)
 (org-babel-do-load-languages
       'org-babel-load-languages
@@ -52,6 +55,7 @@
         (ditaa . t)
         (python . t)
         (sh . t)
+        (plantuml . t)
         ;;(latex . t)
         (R . t)))
 
