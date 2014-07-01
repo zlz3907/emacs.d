@@ -21,6 +21,9 @@
 (setq chinese-calendar-terrestrial-branch
 ["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
 
+;; velocity mode
+(require 'vtl)
+
 ;; bind insert datetime keys
 (require 'init-datetime)
 
