@@ -68,12 +68,23 @@
 (add-hook 'find-file-hook 'ajc-4-jsp-find-file-hook)
 
 ;; junit
-;(require 'jde-junit)
-;(require 'jde-ant)
-(autoload 'jde-junit "jde-junit" "Select jde-junit" t)
-(autoload 'jde-ant "jde-ant" "Select jde-ant" t)
+(require 'jde-junit)
+(require 'jde-ant)
+;(autoload 'jde-junit "jde-junit" "Select jde-junit" t)
+;(autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
 ;; my script
+(defun prj-is-java-sourcefile ()
+  "If current buffer is java file return t."
+  (let (isJava)
+    (let* ((bufferNameLenght (length (buffer-name)))
+           (isLengthGtFive (> bufferNameLenght 5))
+           (isJava
+            (and isLengthGtFive
+                 (equal ".java"
+                        (substring (buffer-name)
+                                   (- bufferNameLenght 5))))))
+      isJava)))
 
 (defun prj-build (buildfile target &optional interactive-args)
   "Invoke ant build."
@@ -144,17 +155,6 @@
                    interactive-args
                    )))
 
-(defun prj-is-java-sourcefile ()
-  "If current buffer is java file return t."
-  (let (isJava)
-    (let* ((bufferNameLenght (length (buffer-name)))
-           (isLengthGtFive (> bufferNameLenght 5))
-           (isJava
-            (and isLengthGtFive
-                 (equal ".java"
-                        (substring (buffer-name)
-                                   (- bufferNameLenght 5))))))
-      isJava)))
 
 (defun prj-after-save-hook ()
   "Compile current java file when you save the file."
