@@ -17,6 +17,7 @@
 
 ;;(setq defer-loading-jde nil)
 
+
 (setq defer-loading-jde t)
 (if defer-loading-jde
     (progn
@@ -74,6 +75,7 @@
 ;(autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
 ;; my script
+(require 'jde-parse)
 (defun prj-is-java-sourcefile ()
   "If current buffer is java file return t."
   (let (isJava)
@@ -137,7 +139,7 @@
      ;;return our new arguments.
      ;;This should be a list of buildfile, target and optional-args.
      (list buildfile target interactive-args)))
-
+  (message "Oh!!!!!!!!!!!!!!!! %s" (prj-is-java-sourcefile))
   (end-of-line)
   (jde-ant-build buildfile
                  target
@@ -175,6 +177,8 @@
   )
 (add-hook 'after-save-hook 'prj-after-save-hook)
 
+(custom-set-variables
+ '(jde-build-function (quote prj-build)))
 (provide 'init-jdee)
 
 ;;; init-jdee.el ends here
