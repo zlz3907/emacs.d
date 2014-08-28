@@ -149,3 +149,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'dired-find-alternate-file 'disabled nil)
