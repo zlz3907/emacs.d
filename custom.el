@@ -84,7 +84,7 @@
  '(jde-ant-home "~/apache/ant")
  '(jde-ant-program "~/apache/ant/bin/ant")
  '(jde-build-function (quote prj-build))
- '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar")))
+ '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/.ivy2/sources/com.ztools/z-vmservlet-1.0-sources.jar")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
