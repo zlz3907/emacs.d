@@ -51,16 +51,17 @@
 (require 'init-plantuml)
 
 (require 'init-blog-publish)
+(require 'init-zorg-exportpdf)
 (org-babel-do-load-languages
-      'org-babel-load-languages
-      '((emacs-lisp . t)
-        (ruby . t)
-        (ditaa . t)
-        (python . t)
-        (sh . t)
-        (plantuml . t)
-        ;;(latex . t)
-        (R . t)))
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (ruby . t)
+   (ditaa . t)
+   (python . t)
+   (sh . t)
+   (plantuml . t)
+   (latex . t)
+   (R . t)))
 
 (require 'ox-taskjuggler)
 
@@ -84,13 +85,17 @@
  '(jde-ant-home "~/apache/ant")
  '(jde-ant-program "~/apache/ant/bin/ant")
  '(jde-build-function (quote prj-build))
- '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/.ivy2/sources/com.ztools/z-vmservlet-1.0-sources.jar")))
+ '(jde-global-classpath (quote ("/home/zhong/projects/z-resmgr/WebContext/WEB-INF/lib/*.jar" "/home/zhong/projects/z-resmgr/build/main" "/home/zhong/projects/z-resmgr/build/test")))
+ '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
- '(session-use-package t nil (session)))
+ '(session-use-package t nil (session))
+ '(speedbar-select-frame-method 1)
+ '(speedbar-show-unknown-files t)
+ '(speedbar-update-flag t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
