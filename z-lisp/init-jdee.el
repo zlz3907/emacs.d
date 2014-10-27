@@ -17,6 +17,7 @@
 
 ;;(setq defer-loading-jde nil)
 
+
 (setq defer-loading-jde t)
 (if defer-loading-jde
     (progn
@@ -74,6 +75,7 @@
 ;(autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
 ;; my script
+(require 'jde-parse)
 (defun prj-is-java-sourcefile ()
   "If current buffer is java file return t."
   (let (isJava)
@@ -89,7 +91,10 @@
 (defun prj-build (buildfile target &optional interactive-args)
   "Invoke ant build."
   (interactive
-   (let* ((buildfile (jde-ant-interactive-get-buildfile))
+   (let* ((buildfile (concat
+                      (file-name-directory (jde-find-project-file
+                                            (file-truename ".")))
+                      jde-ant-buildfile))
           (build-history (jde-ant-get-from-history buildfile))
           (targets
            (if jde-ant-read-target
@@ -137,6 +142,7 @@
      ;;return our new arguments.
      ;;This should be a list of buildfile, target and optional-args.
      (list buildfile target interactive-args)))
+  ;; end interactive
 
   (end-of-line)
   (jde-ant-build buildfile
@@ -175,6 +181,8 @@
   )
 (add-hook 'after-save-hook 'prj-after-save-hook)
 
+(custom-set-variables
+ '(jde-build-function (quote prj-build)))
 (provide 'init-jdee)
 
 ;;; init-jdee.el ends here

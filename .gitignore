@@ -37,8 +37,5 @@ site-lisp/package/
 /emms/
 
 /.smex-items
-/.Rhistory
-/abbrev_defs
-/TAGS
+/image-dired/
 /eshell
-/z-lisp/init-mail.el

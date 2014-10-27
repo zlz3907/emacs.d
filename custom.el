@@ -52,16 +52,17 @@
 (require 'init-plantuml)
 
 (require 'init-blog-publish)
+(require 'init-zorg-exportpdf)
 (org-babel-do-load-languages
-      'org-babel-load-languages
-      '((emacs-lisp . t)
-        (ruby . t)
-        (ditaa . t)
-        (python . t)
-        (sh . t)
-        ;;(latex . t)
-        (plantuml . t)
-        (R . t)))
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (ruby . t)
+   (ditaa . t)
+   (python . t)
+   (sh . t)
+   (plantuml . t)
+   (latex . t)
+   (R . t)))
 
 (require 'ox-taskjuggler)
 
@@ -84,14 +85,19 @@
  '(custom-safe-themes (quote ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(jde-ant-home "~/apache/ant")
  '(jde-ant-program "~/apache/ant/bin/ant")
+ '(jde-build-function (quote prj-build))
  '(jde-global-classpath (quote ("~/java/jdk/" "build/main")))
- '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/*/*/*/*/sources/*.jar" "~/workspace/*/*/src")))
+ '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
+ '(org-latex-default-packages-alist (quote (("" "ctex" nil) ("AUTO" "inputenc" t) ("T1" "fontenc" t) ("" "fixltx2e" nil) ("" "graphicx" t) ("" "longtable" nil) ("" "float" nil) ("" "wrapfig" nil) ("" "rotating" nil) ("normalem" "ulem" t) ("" "amsmath" t) ("" "textcomp" t) ("" "marvosym" t) ("" "wasysym" t) ("" "amssymb" t) ("" "hyperref" nil) "\\tolerance=1000")))
+ '(org-latex-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
+ '(org-latex-to-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
- '(session-use-package t nil (session)))
+ '(session-use-package t nil (session))
+ '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
