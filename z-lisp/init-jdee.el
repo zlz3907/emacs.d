@@ -74,6 +74,10 @@
 ;(autoload 'jde-junit "jde-junit" "Select jde-junit" t)
 ;(autoload 'jde-ant "jde-ant" "Select jde-ant" t)
 
+;; jde contrib: decompile
+(add-to-list 'load-path "~/gnu/plugins/jdee/contrib/")
+(require 'decompile)
+
 ;; my script
 (require 'jde-parse)
 (defun prj-is-java-sourcefile ()

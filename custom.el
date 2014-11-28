@@ -13,8 +13,8 @@
 ;;(require 'pcmpl-git)
 
 ;; GLOBAL CONFIGURE
-(setq user-full-name "Bliss Chung")
-(setq user-mail-address "bliss@3zso.com")
+(setq user-full-name "钟立志")
+(setq user-mail-address "zhonglizhi@8chedao.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
 ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
@@ -75,6 +75,11 @@
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 
+(require 'init-gnus)
+(require 'init-bbdb)
+
+(require 'neotree)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -90,6 +95,7 @@
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+ '(package-archives (quote (("melpa" . "http://melpa.milkbox.net/packages/") ("melpa-stable" . "http://stable.melpa.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))

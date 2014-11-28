@@ -38,3 +38,4 @@ site-lisp/package/
 /.smex-items
 /image-dired/
 /server
+/z-lisp/init-gnus.el
