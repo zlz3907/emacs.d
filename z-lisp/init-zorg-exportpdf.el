@@ -41,8 +41,6 @@
 \\tableofcontents
 \\newpage
 \\pagenumbering{arabic}
-
-
 ")
 
 (setq org-latex-title-command "\\pagenumbering{gobble}

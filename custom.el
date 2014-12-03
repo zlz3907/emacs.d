@@ -13,8 +13,8 @@
 ;;(require 'pcmpl-git)
 
 ;; GLOBAL CONFIGURE
-(setq user-full-name "Bliss Chung")
-(setq user-mail-address "bliss@3zso.com")
+;;(setq user-full-name "Bliss Chung")
+;;(setq user-mail-address "bliss@3zso.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
 ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
@@ -73,14 +73,32 @@
 (require 'init-youdao-dict)
 (require 'init-jdee)
 
+
+(require 'init-gnus)
+
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+(add-to-list 'load-path "~/gnu/plugins/bbdb-3.1.2/lisp")
+(require 'bbdb)
+(require 'bbdb-gnus)
+(require 'bbdb-message)
+(require 'bbdb-mua)
+(require 'bbdb-pgp)
+
+(bbdb-initialize 'gnus 'message)
+(bbdb-mua-auto-update-init 'gnus 'message)
+(setq bbdb-pop-up-window-size 10)
+(setq bbdb-mua-update-interactive-p '(query . create))
+(setq bbdb-message-all-addresses t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(bbdb-file "/home/lizhi/.bbdb.gpg")
+ '(browse-url-browser-function (quote browse-url-firefox))
+ '(canlock-password "90e0c564e3c4b436c584cc82b82e76914f7581f7")
  '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
  '(custom-safe-themes (quote ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(jde-ant-home "~/apache/ant")
@@ -94,6 +112,7 @@
  '(org-latex-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
  '(org-latex-to-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+ '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))

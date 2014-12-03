@@ -143,13 +143,17 @@
 (after-load 'redshank
   (diminish 'redshank-mode))
 
+(maybe-require-package 'aggressive-indent)
 
 (defun sanityinc/lisp-setup ()
   "Enable features useful in any Lisp mode."
   (rainbow-delimiters-mode t)
   (enable-paredit-mode)
+  (when (fboundp 'aggressive-indent-mode)
+    (aggressive-indent-mode))
   (turn-on-eldoc-mode)
-  (redshank-mode))
+  (redshank-mode)
+  (add-hook 'after-save-hook #'check-parens nil t))
 
 (defun sanityinc/emacs-lisp-setup ()
   "Enable features useful when working with elisp."
@@ -174,12 +178,6 @@
 (dolist (hook (mapcar #'derived-mode-hook-name sanityinc/elispy-modes))
   (add-hook hook 'sanityinc/emacs-lisp-setup))
 
-(defun sanityinc/maybe-check-parens ()
-  "Run `check-parens' if this is a lispy mode."
-  (when (memq major-mode sanityinc/lispy-modes)
-    (check-parens)))
-
-(add-hook 'after-save-hook #'sanityinc/maybe-check-parens)
 
 (require-package 'eldoc-eval)
 (require 'eldoc-eval)
@@ -239,18 +237,14 @@
 
 
 
-(when (eval-when-compile (>= emacs-major-version 24))
-  ;; rainbow-mode needs color.el, bundled with Emacs >= 24.
-  (require-package 'rainbow-mode)
-
+(when (maybe-require-package 'rainbow-mode)
   (defun sanityinc/enable-rainbow-mode-if-theme ()
     (when (string-match "\\(color-theme-\\|-theme\\.el\\)" (buffer-name))
       (rainbow-mode 1)))
 
   (add-hook 'emacs-lisp-mode-hook 'sanityinc/enable-rainbow-mode-if-theme))
 
-(when (eval-when-compile (>= emacs-major-version 24))
-  (require-package 'highlight-quoted)
+(when (maybe-require-package 'highlight-quoted)
   (add-hook 'emacs-lisp-mode-hook 'highlight-quoted-mode))
 
 
