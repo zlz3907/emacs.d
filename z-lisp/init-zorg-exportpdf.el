@@ -5,7 +5,13 @@
 ;; Author: Bliss Chung <bliss <at> 3zso.com>
 ;; Version: 1.0
 
+(require 'ox-latex)
+(setq org-latex-listings 'minted)
 (setq org-confirm-babel-evaluate nil)
+(setq org-latex-minted-options
+      '(("frame" "leftline") ("framerule" "1.25pt")
+        ("bgcolor" "mintedbg")))
+
 
 
 (setq org-export-latex-hyperref-options-format "\\hypersetup{
@@ -33,6 +39,7 @@
               ("" "marvosym" t)
               ("" "wasysym" t)
               ("" "amssymb" t)
+              ("" "minted" nil)
               ("" "hyperref" nil)
               "\\tolerance=1000")))
 
@@ -49,13 +56,13 @@
 \\maketitle")
 
 (setq org-latex-pdf-process
-      (quote ("xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f")))
+      (quote ("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f")))
 (setq org-latex-to-pdf-process
-      (quote ("xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f")))
+      (quote ("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f")))
 
 (provide 'init-zorg-exportpdf)
 

@@ -75,21 +75,10 @@
 
 
 (require 'init-gnus)
+(require 'init-bbdb)
 
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 ;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
-(add-to-list 'load-path "~/gnu/plugins/bbdb-3.1.2/lisp")
-(require 'bbdb)
-(require 'bbdb-gnus)
-(require 'bbdb-message)
-(require 'bbdb-mua)
-(require 'bbdb-pgp)
-
-(bbdb-initialize 'gnus 'message)
-(bbdb-mua-auto-update-init 'gnus 'message)
-(setq bbdb-pop-up-window-size 10)
-(setq bbdb-mua-update-interactive-p '(query . create))
-(setq bbdb-message-all-addresses t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -108,9 +97,6 @@
  '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
- '(org-latex-default-packages-alist (quote (("" "ctex" nil) ("AUTO" "inputenc" t) ("T1" "fontenc" t) ("" "fixltx2e" nil) ("" "graphicx" t) ("" "longtable" nil) ("" "float" nil) ("" "wrapfig" nil) ("" "rotating" nil) ("normalem" "ulem" t) ("" "amsmath" t) ("" "textcomp" t) ("" "marvosym" t) ("" "wasysym" t) ("" "amssymb" t) ("" "hyperref" nil) "\\tolerance=1000")))
- '(org-latex-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
- '(org-latex-to-pdf-process (quote ("xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f" "xelatex -interaction nonstopmode -output-directory %o %f")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
