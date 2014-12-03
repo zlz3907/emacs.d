@@ -7,7 +7,10 @@
 (add-to-list 'load-path "~/gnu/plugins/bbdb-3.1.1/lisp")
 ;; (require 'bbdb-l)
 (require 'bbdb)
-(bbdb-initialize 'gnus 'message 'mail)
+(require 'bbdb-gnus)
+(require 'bbdb-message)
+(require 'bbdb-pgp)
+(bbdb-initialize 'gnus 'message)
 (setq bbdb-north-american-phone-numbers-p nil)
 
 

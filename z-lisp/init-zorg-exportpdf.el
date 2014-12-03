@@ -5,6 +5,8 @@
 ;; Author: Bliss Chung <bliss <at> 3zso.com>
 ;; Version: 1.0
 
+(require 'ox-latex)
+(setq org-latex-listings 'minted)
 (setq org-confirm-babel-evaluate nil)
 
 
@@ -33,6 +35,7 @@
               ("" "marvosym" t)
               ("" "wasysym" t)
               ("" "amssymb" t)
+              ("" "minted" nil)
               ("" "hyperref" nil)
               "\\tolerance=1000")))
 
@@ -41,8 +44,6 @@
 \\tableofcontents
 \\newpage
 \\pagenumbering{arabic}
-
-
 ")
 
 (setq org-latex-title-command "\\pagenumbering{gobble}
@@ -51,13 +52,13 @@
 \\maketitle")
 
 (setq org-latex-pdf-process
-      (quote ("xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f")))
+      (quote ("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f")))
 (setq org-latex-to-pdf-process
-      (quote ("xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f"
-              "xelatex -interaction nonstopmode -output-directory %o %f")))
+      (quote ("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+              "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f")))
 
 (provide 'init-zorg-exportpdf)
 
