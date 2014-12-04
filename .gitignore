@@ -25,4 +25,13 @@ site-lisp/package/
 /.sqli_history
 /frame-restore-parameters
 /.achievements
-.cache
+/.bookmarks.el
+/history
+/helm-adaptive-history
+/thumbs/
+/emms/
+/.smex-items
+/image-dired/
+/eshell
+/server
+*.cache
