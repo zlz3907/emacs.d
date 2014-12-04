@@ -7,13 +7,13 @@
 ;; jde
 (setq debug-on-error t)
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/jdee/lisp"))
-(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/semantic"))
-(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/speedbar"))
+;;(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/semantic"))
+;;(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/speedbar"))
 (add-to-list 'load-path (expand-file-name "~/gnu/plugins/elib"))
-(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/eieio"))
-(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/cogre"))
-(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/ede"))
-(load-file "~/gnu/plugins/cedet/common/cedet.el")
+;;(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/eieio"))
+;;(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/cogre"))
+;;(add-to-list 'load-path (expand-file-name "~/gnu/plugins/cedet/ede"))
+;;(load-file "~/gnu/plugins/cedet/common/cedet.el")
 
 ;;(setq defer-loading-jde nil)
 
@@ -49,7 +49,7 @@
     (setq w32-quote-process-args ?\")) ;; Include only for MS Windows.
 
 ;;YaSnippet
-(add-to-list 'load-path "~/gnu/plugins/yasnippet")
+;;(add-to-list 'load-path "~/gnu/plugins/yasnippet")
 (require 'yasnippet)
 ;(autoload 'yasnippet "yasnippet" "Select yasnippet" t)
 (yas-global-mode 1)

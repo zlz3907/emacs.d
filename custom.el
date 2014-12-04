@@ -17,9 +17,9 @@
 ;;(setq user-mail-address "bliss@3zso.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
-["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
+      ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
 (setq chinese-calendar-terrestrial-branch
-["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
+      ["子" "丑" "寅" "卯" "辰" "巳" "戊" "未" "申" "酉" "戌" "亥"])
 
 ;; velocity mode
 (require 'vtl)
@@ -28,7 +28,7 @@
 (require 'init-datetime)
 
 ;; R Support
-(add-to-list 'load-path "~/gnu/plugins/ess-13.09-1/lisp")
+;;(add-to-list 'load-path "~/gnu/plugins/ess-13.09-1/lisp")
 (require 'ess-site)
 (setq org-babel-R-command "R --slave --no-save")
 
@@ -45,6 +45,7 @@
 ;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 (add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+;;(load-file "~/gnu/plugins/org-mode/contrib/lisp/ox-taskjuggler.el")
 
 ;; plantuml
 (require 'init-plantuml)
@@ -94,6 +95,7 @@
  '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
+ '(org-export-latex-low-levels "\\subparagraph{%s}")
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
