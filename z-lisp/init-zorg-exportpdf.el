@@ -8,6 +8,10 @@
 (require 'ox-latex)
 (setq org-latex-listings 'minted)
 (setq org-confirm-babel-evaluate nil)
+(setq org-latex-minted-options
+      '(("frame" "leftline") ("framerule" "1.25pt")
+        ("bgcolor" "mintedbg")))
+
 
 
 (setq org-export-latex-hyperref-options-format "\\hypersetup{
