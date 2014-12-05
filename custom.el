@@ -13,8 +13,8 @@
 ;;(require 'pcmpl-git)
 
 ;; GLOBAL CONFIGURE
-;;(setq user-full-name "Bliss Chung")
-;;(setq user-mail-address "bliss@3zso.com")
+(setq user-full-name "钟立志")
+(setq user-mail-address "zhonglizhi@8chedao.com")
 (set-locale-environment "ENU")
 (setq chinese-calendar-celestial-stem
       ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
@@ -101,7 +101,10 @@
  '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
+ '(send-mail-function (quote smtpmail-send-it))
  '(session-use-package t nil (session))
+ '(smtpmail-smtp-server "smtpcom.263xmail.com")
+ '(smtpmail-smtp-service 25)
  '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
