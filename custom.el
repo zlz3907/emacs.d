@@ -76,7 +76,7 @@
 (require 'init-gnus)
 (require 'init-bbdb)
 
-(require 'neotree)
+;;(require 'neotree)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -95,7 +95,8 @@
  '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
- '(org-export-latex-low-levels "\\subparagraph{%s}")
+ '(org-export-latex-verbatim-wrap (quote ("\\begin{minted}[bgcolor=mintedbg]{text}
+" . "\\end{minted}")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
