@@ -1,0 +1,23 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables (list 
+   (semanticdb-table "custom.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("setq" code nil nil [151 186]) ("setq" code nil nil [187 232]) ("add-to-list" code nil nil [308 362]) ("add-to-list" code nil nil [363 427]) ("init-youdao-dict" include nil nil [500 527]) ("init-jdee" include nil nil [528 548]) ("init-blog-publish" include nil nil [549 577]) ("custom-set-variables" code nil nil [703 1158]) ("custom-set-faces" code nil nil [1159 1398]))
+    :file "custom.el"
+    :pointmax 1424
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "init-blog-publish.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("org-publish" include nil nil [141 163]) ("setq" code nil nil [164 1089]) ("setq" code nil nil [1091 3579]) ("init-blog-publish" package nil nil [3581 3609]))
+    :file "init-blog-publish.el"
+    :pointmax 3646
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )
