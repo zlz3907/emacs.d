@@ -16,6 +16,8 @@
 ;;(load-file "~/gnu/plugins/cedet/common/cedet.el")
 
 ;;(setq defer-loading-jde nil)
+(require 'ede)
+(require 'srecode)
 
 
 (setq defer-loading-jde t)

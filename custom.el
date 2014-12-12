@@ -100,11 +100,9 @@
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
+ '(semantic-java-dependency-system-include-path (quote ("~/java/jdk")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
- '(send-mail-function (quote smtpmail-send-it))
  '(session-use-package t nil (session))
- '(smtpmail-smtp-server "smtpcom.263xmail.com")
- '(smtpmail-smtp-service 25)
  '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
