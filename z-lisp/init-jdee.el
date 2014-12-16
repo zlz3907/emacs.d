@@ -18,6 +18,7 @@
 ;;(setq defer-loading-jde nil)
 (require 'ede)
 (require 'srecode)
+
 ;;(require 'eieio)
 ;;(global-ede-mode t)
 
