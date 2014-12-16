@@ -83,7 +83,7 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
               ("" "wasysym" t)
               ("" "amssymb" t)
               ("" "minted" nil)
-              ("" "hyperref" nil)
+              ("unicode" "hyperref" nil)
               ("" "enumitem" nil)
               ("" "geometry" nil)
               "\\tolerance=1000"

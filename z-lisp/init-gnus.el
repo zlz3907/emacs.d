@@ -18,7 +18,7 @@
 ;;                 (nnimap-port 143))
 ;;         ))
 
-
+;; filter
 (setq nnimap-split-inbox "INBOX")
 (setq nnimap-split-predicate "UNDELETED")
 (setq nnmail-split-fancy
@@ -36,37 +36,29 @@
 (setq nnmail-split-methods 'nnmail-split-fancy)
 (gnus-registry-initialize)
 
-;;(setq mm-automatic-display (remove "text/html" mm-automatic-display))
-;;(setq mm-text-html-renderer nil)
-;; (defun wicked/gnus-article-show-html ()
-;;   "Show the current message as HTML mail."
-;;   (interactive)
-;;   (let ((mm-automatic-display (cons "text/html" mm-automatic-display)))
-;;     (gnus-summary-show-article)))
-;; (define-key gnus-article-mode-map "WH" 'wicked/gnus-article-show-html)
-
-;; msmtp start -------------------------------------------------------
-;; This is needed to allow msmtp to do its magic:
-;;;(setq message-sendmail-f-is-evil 't)
-
-;;need to tell msmtp which account we're using
-;;;(setq message-sendmail-extra-arguments '("--read-envelope-from"))
-
-;; with Emacs 23.1, you have to set this explicitly (in MS Windows)
-;; otherwise it tries to send through OS associated mail client
-;;;(setq message-send-mail-function 'message-send-mail-with-sendmail)
-;; we substitute sendmail with msmtp
-;;;(setq sendmail-program "msmtp")
-;;need to tell msmtp which account we're using
-;;(setq message-sendmail-extra-arguments '("-a" "personal"))
-;; msmtp end ---------------------------------------------------------
-
 ;; send mail
-(setq smtpmail-smtp-server "smtp.gmail.com")
-(setq smtpmail-smtp-service 465)
-(setq smtpmail-stream-type 'ssl)
-(setq send-mail-function 'smtpmail-send-it)
-(setq message-send-mail-function 'smtpmail-send-it)
+
+(defun z-selectsmtp-hook ()
+  "Select smtp server."
+  ;;(interactive)
+  (if (message-mail-p)
+      (save-excursion
+        (let* ((from
+                (save-restriction
+                  (message-narrow-to-headers)
+                  (message-fetch-field "from"))))
+          (message "from: %s" from)
+          )))
+  (smtpmail-send-it))
+
+;;(z-selectsmtp-hook)
+;;(add-hook 'message-send-mail-hook 'z-selectsmtp-hook)
+;;(add-hook 'mail-send-hook 'z-selectsmtp-hook)
+;;(setq smtpmail-smtp-server "smtpcom.263xmail.com")
+;;(setq smtpmail-smtp-service 465)
+;;(setq smtpmail-stream-type 'ssl)
+(setq send-mail-function 'z-selectsmtp-hook)
+(setq message-send-mail-function 'z-selectsmtp-hook)
 
 (require 'smtpmail)
 
