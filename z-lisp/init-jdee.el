@@ -19,6 +19,8 @@
 (require 'ede)
 (require 'srecode)
 
+;;(require 'eieio)
+;;(global-ede-mode t)
 
 (setq defer-loading-jde t)
 (if defer-loading-jde
