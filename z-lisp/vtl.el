@@ -48,8 +48,7 @@
 
 ;;;###autoload
 (defcustom vtl-mode nil
-  "*If non-nil, fontify vtl code
-
+  "*If non-nil, fontify vtl code.
 This variable is buffer-local."
   :type 'boolean)
 (make-variable-buffer-local 'vtl-mode)
@@ -82,7 +81,6 @@ This variable is buffer-local."
 ;;;###autoload
 (defun vtl-mode (&optional prefix)
   "Toggle VTL Mode.
-
 If called interactively with no prefix argument, toggle current condition
 of the mode.
 If called with a positive or negative prefix argument, enable or disable
@@ -120,7 +118,7 @@ the mode, respectively."
          (font-lock-set-defaults)
          (font-lock-mode 1)
          (font-lock-fontify-buffer)))
-         
+  
   (and (interactive-p)
        (if vtl-mode
            (message "vtl-mode is enabled")
