@@ -75,5 +75,5 @@
 (require 'init-bbdb)
 
 ;;(require 'neotree)
-
+(provide 'init-z)
 ;;; init-z.el ends here
