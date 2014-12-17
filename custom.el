@@ -92,17 +92,28 @@
  '(jde-ant-program "~/apache/ant/bin/ant")
  '(jde-build-function (quote prj-build))
  '(jde-global-classpath (quote ("~/java/jdk/" "build/main")))
- '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
+ '(jde-sourcepath
+   (quote
+    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(org-agenda-files (quote ("~/org/2014")))
- '(org-export-latex-verbatim-wrap (quote ("\\begin{minted}[bgcolor=mintedbg]{text}
+ '(org-export-latex-verbatim-wrap
+   (quote
+    ("\\begin{minted}[bgcolor=mintedbg]{text}
 " . "\\end{minted}")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
- '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
+ '(package-archives
+   (quote
+    (("melpa-stable" . "http://stable.melpa.org/packages/")
+     ("melpa" . "http://melpa.milkbox.net/packages/")
+     ("org" . "http://orgmode.org/elpa/")
+     ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
  '(semantic-java-dependency-system-include-path (quote ("~/java/jdk")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))
+ '(smtpmail-smtp-server "smtpcom.263xmail.com")
+ '(smtpmail-smtp-service 25)
  '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
