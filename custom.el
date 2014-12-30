@@ -25,22 +25,14 @@
  '(jde-ant-program "~/apache/ant/bin/ant")
  '(jde-build-function (quote prj-build))
  '(jde-global-classpath (quote ("~/java/jdk/" "build/main")))
- '(jde-sourcepath
-   (quote
-    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
+ '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
- '(org-agenda-files (quote ("~/org/2014")))
- '(org-export-latex-verbatim-wrap
-   (quote
-    ("\\begin{minted}[bgcolor=mintedbg]{text}
+ '(mm-tmp-directory "~/tmp/")
+ '(org-agenda-files (quote ("~/projects/subom-analysis/README.org" "/home/zhong/org/2014/agenda.org" "/home/zhong/org/2014/architecture.org" "/home/zhong/org/2014/contacts.org" "/home/zhong/org/2014/from-mobile.org" "/home/zhong/org/2014/gtd.org" "/home/zhong/org/2014/journal.org" "/home/zhong/org/2014/note.org" "/home/zhong/org/2014/web3d-solutions.org")))
+ '(org-export-latex-verbatim-wrap (quote ("\\begin{minted}[bgcolor=mintedbg]{text}
 " . "\\end{minted}")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
- '(package-archives
-   (quote
-    (("melpa-stable" . "http://stable.melpa.org/packages/")
-     ("melpa" . "http://melpa.milkbox.net/packages/")
-     ("org" . "http://orgmode.org/elpa/")
-     ("gnu" . "http://elpa.gnu.org/packages/"))))
+ '(package-archives (quote (("melpa-stable" . "http://stable.melpa.org/packages/") ("melpa" . "http://melpa.milkbox.net/packages/") ("org" . "http://orgmode.org/elpa/") ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
  '(semantic-java-dependency-system-include-path (quote ("~/java/jdk")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")

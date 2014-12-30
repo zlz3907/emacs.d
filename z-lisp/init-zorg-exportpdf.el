@@ -87,7 +87,7 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
               ("" "enumitem" nil)
               ("" "geometry" nil)
               "\\tolerance=1000"
-              "\\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
+              ;;"\\geometry{leftz=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
               "\\setenumerate{fullwidth,itemindent=\\parindent,listparindent=\\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex}"
               "\\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
               "\\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
