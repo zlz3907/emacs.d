@@ -16,7 +16,7 @@ information."
   (when (org-string-nw-p (org-element-property :value example-block))
     (org-latex--wrap-label
      example-block
-     (format "\\begin{minted}[xleftmargin=26pt,xrightmargin=26pt,frame=lines,framesep=5mm]{text}\n%s\\end{minted}"
+     (format "\\begin{minted}[frame=lines,framesep=5mm]{text}\n%s\\end{minted}"
              (org-export-format-code-default example-block info)))))
 
 (defun org-latex-quote-section (quote-section contents info)
@@ -24,7 +24,7 @@ information."
 CONTENTS is nil.  INFO is a plist holding contextual information."
   (let ((value (org-remove-indentation
                 (org-element-property :value quote-section))))
-    (when value (format "\\begin{minted}[xleftmargin=26pt,xrightmargin=26pt,frame=lines,framesep=5mm]{text}\n%s\\end{minted}" value))))
+    (when value (format "\\begin{minted}[frame=lines,framesep=5mm]{text}\n%s\\end{minted}" value))))
 
 
 (setq org-export-latex-classes
@@ -55,12 +55,12 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
       '(;("frame" "leftline") ("framerule" "1.25pt")
         ;;("resetmargins" "false")
         ;;("mathescape" "true")
-        ("xleftmargin" "26pt")
-        ("xrightmargin" "26pt")
+        ;;("xleftmargin" "26pt")
+        ;;("xrightmargin" "26pt")
         ;;("numbersep" "5pt")
         ;;("gobble" "2")
         ("frame" "lines")
-        ("framesep" "10pt")
+        ("framesep" "15pt")
         ;;("bgcolor" "mintedbg")
         ))
 
@@ -84,13 +84,14 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
               ("" "amssymb" t)
               ("" "minted" nil)
               ("unicode" "hyperref" nil)
+              ("" "url" nil)
               ("" "enumitem" nil)
               ("" "geometry" nil)
               "\\tolerance=1000"
-              ;;"\\geometry{leftz=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
-              "\\setenumerate{fullwidth,itemindent=\\parindent,listparindent=\\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex}"
-              "\\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
-              "\\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
+              "\\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
+              ;;"\\setenumerate{fullwidth,itemindent=\\parindent,listparindent=\\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex}"
+              ;;"\\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
+              ;;"\\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
               "\\usemintedstyle{friendly}"
               "\\definecolor{mintedbg}{rgb}{0.95, 0.95, 0.95}")))
 

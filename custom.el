@@ -28,7 +28,7 @@
  '(jde-sourcepath (quote ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(mm-tmp-directory "~/tmp/")
- '(org-agenda-files (quote ("~/projects/subom-analysis/README.org" "/home/zhong/org/2014/agenda.org" "/home/zhong/org/2014/architecture.org" "/home/zhong/org/2014/contacts.org" "/home/zhong/org/2014/from-mobile.org" "/home/zhong/org/2014/gtd.org" "/home/zhong/org/2014/journal.org" "/home/zhong/org/2014/note.org" "/home/zhong/org/2014/web3d-solutions.org")))
+ '(org-agenda-files (quote ("~/org/2014" "~/org/2015")))
  '(org-export-latex-verbatim-wrap (quote ("\\begin{minted}[bgcolor=mintedbg]{text}
 " . "\\end{minted}")))
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")

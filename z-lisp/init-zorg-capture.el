@@ -21,7 +21,11 @@
 
 ;; org-capture-templates
 (setq org-capture-templates
-      '(("t" "Todo" entry
+      '(("g" "Goals" entry
+         (file+headline
+          (concat zorgcapture-basepath "agenda.org") "Goals")
+         "* TODO %?\n  :PROPERTIES:\n :ENTEREDON: %U\n  :END: %i")
+        ("t" "Todo" entry
          (file+headline
           (concat zorgcapture-basepath "gtd.org") "Tasks")
          "* TODO %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")
