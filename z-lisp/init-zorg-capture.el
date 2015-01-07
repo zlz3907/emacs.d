@@ -24,23 +24,39 @@
       '(("g" "Goals" entry
          (file+headline
           (concat zorgcapture-basepath "agenda.org") "Goals")
-         "* TODO %?\n  :PROPERTIES:\n :ENTEREDON: %U\n  :END: %i")
+         "* TODO %?\n  :PROPERTIES:\n  :ENTEREDON: %U\n  :END: %i")
         ("t" "Todo" entry
          (file+headline
           (concat zorgcapture-basepath "gtd.org") "Tasks")
          "* TODO %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")
+        ("T" "Todo Without Link" entry
+         (file+headline
+          (concat zorgcapture-basepath "gtd.org") "Tasks")
+         "* TODO %?\n  :PROPERTIES:\n  :ENTEREDON: %U\n  :END: %i")
         ("w" "Work" entry
          (file+headline
           (concat zorgcapture-basepath "gtd.org") "Work")
          "* TODO %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")
+        ("W" "Work Without Link" entry
+         (file+headline
+          (concat zorgcapture-basepath "gtd.org") "Work")
+         "* TODO %?\n  :PROPERTIES:\n  :ENTEREDON: %U\n  :END: %i")
         ("j" "Journal" entry
          (file+datetree
           (concat zorgcapture-basepath "journal.org"))
          "* %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")
+        ("J" "Journal Without Link" entry
+         (file+datetree
+          (concat zorgcapture-basepath "journal.org"))
+         "* %?\n  :PROPERTIES:\n  :ENTEREDON: %U\n  :END: %i")
         ("n" "Note" entry
          (file+headline
           (concat zorgcapture-basepath "note.org") "Notes")
-         "* %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")))
+         "* %?\n  :PROPERTIES:\n  :LINK: %a\n  :ENTEREDON: %U\n  :END: %i")
+        ("N" "Note Without Link" entry
+         (file+headline
+          (concat zorgcapture-basepath "note.org") "Notes")
+         "* %?\n  :PROPERTIES:\n  :ENTEREDON: %U\n  :END: %i")))
 
 (provide 'init-zorg-capture)
 ;;; init-zorg-capture.el ends here
