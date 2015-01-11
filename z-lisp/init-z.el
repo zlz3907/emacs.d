@@ -69,7 +69,7 @@
 ;;(setq twittering-use-master-password t)
 (require 'init-youdao-dict)
 (require 'init-jdee)
-
+;;(require 'init-eclim)
 
 (require 'init-gnus)
 (require 'init-bbdb)
