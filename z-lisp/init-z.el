@@ -71,6 +71,7 @@
 ;;(require 'init-jdee)
 ;;(require 'init-eclim)
 (require 'init-java)
+;;(global-eclim-mode)
 
 (require 'init-gnus)
 (require 'init-bbdb)

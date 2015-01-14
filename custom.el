@@ -18,16 +18,20 @@
  ;; If there is more than one, they won't work right.
  '(bbdb-file "~/.bbdb.gpg")
  '(browse-url-browser-function (quote browse-url-firefox))
+ '(c-basic-offset 2)
  '(canlock-password "90e0c564e3c4b436c584cc82b82e76914f7581f7")
  '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
  '(custom-safe-themes
    (quote
     ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
+ '(ecb-options-version "2.40")
  '(ecb-source-path
    (quote
-    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
+    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src"
+     ("/" "/"))))
  '(eclim-eclipse-dirs (quote ("~/programs/eclipse")))
  '(eclim-executable "~/programs/eclipse/eclim")
+ '(eclimd-default-workspace "~/projects")
  '(ede-project-directories
    (quote
     ("/home/zhong/projects/cedet-example/ede-java" "/home/zhong/projects/cedet-example/ede-test")))
@@ -53,7 +57,7 @@
      ("org" . "http://orgmode.org/elpa/")
      ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
- '(semantic-java-dependency-system-include-path (quote ("~/java/jdk")))
+ '(semantic-java-dependency-system-include-path (quote ("~/java/jdk1.7.0")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))
  '(smtpmail-smtp-server "smtpcom.263xmail.com")

@@ -1,4 +1,4 @@
-;
+                                        ;
 
 ;;; Commentary:
 ;;
@@ -55,7 +55,7 @@
 ;;YaSnippet
 ;;(add-to-list 'load-path "~/gnu/plugins/yasnippet")
 (require 'yasnippet)
-;(autoload 'yasnippet "yasnippet" "Select yasnippet" t)
+                                        ;(autoload 'yasnippet "yasnippet" "Select yasnippet" t)
 (yas-global-mode 1)
 
 ;; auto complete
@@ -68,7 +68,7 @@
 ;; auto java complete
 (add-to-list 'load-path "~/gnu/plugins/ajc-java-complete/")
 (require 'ajc-java-complete-config)
-;(autoload 'ajc-java-complete-config "ajc-java-complete-config" "Select ajc-java-complete-config")
+;;(autoload 'ajc-java-complete-config "ajc-java-complete-config" "Select ajc-java-complete-config")
 (add-hook 'java-mode-hook 'ajc-java-complete-mode)
 (add-hook 'find-file-hook 'ajc-4-jsp-find-file-hook)
 
@@ -174,18 +174,18 @@
   "Compile current java file when you save the file."
   (if (prj-is-java-sourcefile)
       (let* ((working-dir (file-name-directory
-                          (jde-find-project-file (file-truename "."))))
+                           (jde-find-project-file (file-truename "."))))
              (abslute-buildfile-path (concat working-dir jde-ant-buildfile)))
         (if (eq nil (search "/test/" (file-truename "."))) ; then
             (jde-ant-build abslute-buildfile-path
-                         "common.compile"
-                         (concat "-Dsrc.dir.includes=**/" (buffer-name)))
+                           "common.compile"
+                           (concat "-Dsrc.dir.includes=**/" (buffer-name)))
           ;; else
           (jde-ant-build abslute-buildfile-path
-                       "common.compile-test"
-                       (concat "-Dsrc.test.includes=**/" (buffer-name)))
-        ))
-      )
+                         "common.compile-test"
+                         (concat "-Dsrc.test.includes=**/" (buffer-name)))
+          ))
+    )
   )
 (add-hook 'after-save-hook 'prj-after-save-hook)
 
