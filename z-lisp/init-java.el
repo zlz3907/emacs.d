@@ -24,10 +24,14 @@
 
 ;;(setq defer-loading-jde nil)
 
+(ac-config-default)
+(ac-set-trigger-key "TAB")
+(ac-set-trigger-key "<tab>")
 ;; Dependencies 依赖功能
 ;; YaSnippet 下拉列表功能，补全输入提示时会用到
-;;(require 'yasnippet)
+(require 'yasnippet)
 (yas-global-mode 1)
+(global-set-key (kbd "M-/") 'yas/expand)
 
 ;; Emacs的面向对象的实现包
 ;;(require 'eieio)

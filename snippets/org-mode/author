@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: author
+# key: author
+# binding: direct-keybinding
+# --
+${1:Zhong Lizhi} mail: ${2:$$(yas/choose-value '("bliss@3zso.com" "zlz.3907@gmail.com" "zhonglizhi@8chedao.com"))}
+$0
