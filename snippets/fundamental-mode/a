@@ -1,0 +1,24 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: a
+# key: a
+# --
+# 邮件服务器: ${1:account-name}
+[Account ${1:$(upcase yas-text)}]
+localrepository = Local.${1:$(upcase yas-text)}
+remoterepository = Remote.${1:$(upcase yas-text)}
+autorefresh = ${2:15}
+
+[Repository Local.${1:$(upcase yas-text)}]
+type = ${3:Maildir}
+localfolders = ~/.mail/$1
+
+[Repository Remote.${1:$(upcase yas-text)}]
+type = IMAP
+remotehost = ${4:imap.server.com}
+remoteuser = ${5:remoteuser}
+maxconnections = 1
+realdelete = no
+port = ${6:993}
+ssl = ${7:yes}
+remotepasseval = get_password_emacs("$4", "$5", "${8:25}")
+$0
