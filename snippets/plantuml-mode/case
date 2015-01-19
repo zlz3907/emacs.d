@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: case
+# key: c
+# --
+(${1:casename}) as (${2:alia}) <<${3:Client}>>$0
