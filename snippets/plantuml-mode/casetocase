@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: case to case
+# key: cc
+# binding: direct-keybinding
+# --
+(${1:caseName}) --> (${2:otherCase})$0

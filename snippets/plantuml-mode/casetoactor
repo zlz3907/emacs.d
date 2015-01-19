@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: case to actor
+# key: ca
+# binding: direct-keybinding
+# --
+(${1:caseName}) -- ${2:actorName}$0
