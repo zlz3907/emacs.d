@@ -31,7 +31,7 @@
 ;; YaSnippet 下拉列表功能，补全输入提示时会用到
 (require 'yasnippet)
 (yas-global-mode 1)
-(global-set-key (kbd "M-/") 'yas/expand)
+;;(global-set-key (kbd "M-/") 'yas/expand)
 
 ;; Emacs的面向对象的实现包
 ;;(require 'eieio)

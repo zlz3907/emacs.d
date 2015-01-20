@@ -67,7 +67,7 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
 ;; 加载默认的依赖包
 (setq org-latex-default-packages-alist
       (quote (("" "ctex" nil)
-              ("" "tikz" nil)
+              ("" "tikz" t)
               ("AUTO" "inputenc" t)
               ("T1" "fontenc" t)
               ("" "fixltx2e" nil)
@@ -87,12 +87,13 @@ CONTENTS is nil.  INFO is a plist holding contextual information."
               ("" "url" nil)
               ("" "enumitem" nil)
               ("" "geometry" nil)
+              "\\usetikzlibrary{mindmap,trees}"
               "\\tolerance=1000"
-              "\\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
+              ;;"\\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}"
               ;;"\\setenumerate{fullwidth,itemindent=\\parindent,listparindent=\\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex}"
               ;;"\\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
               ;;"\\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}"
-              "\\usemintedstyle{friendly}"
+              ;;"\\usemintedstyle{friendly}"
               "\\definecolor{mintedbg}{rgb}{0.95, 0.95, 0.95}")))
 
 (setq org-export-latex-hyperref-options-format "\\hypersetup{
