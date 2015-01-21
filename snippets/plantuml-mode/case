@@ -1,5 +1,5 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: case
-# key: c
+# name: usecase
+# key: us
 # --
-(${1:casename}) as (${2:$1}) <<${3:type$(yas/choose-value '("Client" "Service"))}>>$0
+usecase (${1:casename}) as (${2:$1}) ${3:$$(yas/choose-value '("<<Client>>" "<<Service>>"))}$0

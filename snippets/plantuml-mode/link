@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: link
+# key: li
+# --
+${1:leftName} ${2:--$(yas/choose-value '("--" "-->" "..>" "<.." "<--" "<|-" "-|>" "---" "--->"))} ${3:rightName} $4$0

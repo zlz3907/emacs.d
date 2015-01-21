@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: class
+# key: cl
+# --
+${1:class$(yas/choose-value '("class" "enum" "interface"))} ${2:ClassName} {
+  $0
+}

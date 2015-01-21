@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: actor
-# key: a
+# key: ac
 # binding: direct-keybinding
 # --
-:${1:actorName}: as ${2:$1} <<${3:type$(yas/choose-value '("Human" "Application"))}>>$0
+actor :${1:actorName}: as ${2:$1} <<${3:$$(yas/choose-value '("<<Human>>" "<<Application>>"))}>>$0

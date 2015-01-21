@@ -59,6 +59,7 @@
    (sh . t)
    (plantuml . t)
    (latex . t)
+   (calc . t)
    (R . t)))
 
 (require 'ox-taskjuggler)

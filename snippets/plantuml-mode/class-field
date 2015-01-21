@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: add class field
+# key: fi
+# --
+${1:fieldName} : ${2:int}
+$0

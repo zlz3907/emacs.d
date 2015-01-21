@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: direction
+# key: le
+# --
+${1:left to right$(yas/choose-value '("left to right" "top to bottom"))} direction
