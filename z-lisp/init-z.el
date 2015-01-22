@@ -40,6 +40,8 @@
  ":pixelsize=16"
  '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
 
+(require 'init-helm)
+
 ;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
 (add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
