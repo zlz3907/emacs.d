@@ -8,8 +8,8 @@
 (set-locale-environment "ENU")
 
 ;;(read)
-(setq user-full-name "钟立志")
-(setq user-mail-address "zhonglizhi@8chedao.com")
+(setq user-full-name "Bliss Chung")
+(setq user-mail-address "bliss@3zso.com")
 
 ;; (set 'chinese-calendar-celestial-stem
 ;;      ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
