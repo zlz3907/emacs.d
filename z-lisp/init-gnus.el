@@ -6,9 +6,6 @@
 
 ;;; Code:
 (require 'smtpmail)
-(require 'gnus)
-(require 'nnmail)
-
 ;;(require 'spam)
 
 (setq gnus-select-method '(nnml ""))
@@ -33,16 +30,38 @@
 ;;            "INBOX")))
 
 
-(setq gnus-secondary-select-methods
-      '((nnimap "Mail"
-                (nnimap-address "localhost")
-                (nnimap-stream network)
-                (nnimap-authenticator login)
-                (nnimap-inbox "INBOX")
-                (nnimap-split-methods default))))
+;; (setq gnus-secondary-select-methods
+;;       '((nnimap "Mail"
+;;                 (nnimap-address "localhost")
+;;                 (nnimap-stream network)
+;;                 (nnimap-authenticator login)
+;;                 (nnimap-inbox "INBOX")
+;;                 (nnimap-split-methods default))))
 
 ;; filter
 ;; see: spamassassin
+(setq nnmail-crosspost nil)
+(setq nnmail-split-methods (quote nnmail-split-fancy))
+(setq nnmail-split-fancy
+      '(|
+        (any "emacs" "emacs")
+        ("subject" "test" "test)"
+         ("from" ".*@youtube\\.com" "youtube")
+         ("from" ".*@amazon\\.com" "amazon")
+         ("from" ".*@nagios\\.com" "nagios")
+         ("from" ".*@twitter\\.com" "twitter")
+         ("from" ".*@google\\.com" "google")
+         "INBOX")))
+;; (setq nnimap-split-inbox '("3zso/INBOX") )
+;; (setq nnimap-split-predicate "UNDELETED") ;; (2)
+;; (setq nnimap-split-rule
+;;       '(
+;;         ("emacs" ".*")
+;;         ("INBOX.work" "^To:.*you@work.example.com")
+;;         ("INBOX.personal" "^To:.*you@personal.example.com")
+;;         ("INBOX.errors" "^From:.*\\(mailer.daemon\\|postmaster\\)")
+;;         ))
+
 (gnus-registry-initialize)
 
 ;; send mail
@@ -64,8 +83,8 @@
 ;;(add-hook 'message-send-mail-hook 'z-selectsmtp-hook)
 ;;(add-hook 'mail-send-hook 'z-selectsmtp-hook)
 ;;(setq smtpmail-smtp-server "smtp.googlemail.com")
-;;(setq smtpmail-smtp-service 465)
-;;(setq smtpmail-stream-type 'ssl)
+(setq smtpmail-smtp-service 465)
+(setq smtpmail-stream-type 'ssl)
 (setq send-mail-function 'z-selectsmtp-hook)
 (setq message-send-mail-function 'z-selectsmtp-hook)
 

@@ -61,7 +61,6 @@
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))
  '(smtpmail-smtp-server "smtp.gmail.com")
- '(smtpmail-smtp-service 587)
  '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
