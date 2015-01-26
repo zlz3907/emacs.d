@@ -5,35 +5,44 @@
 ;; Version: 1.0
 
 ;;; Code:
+(require 'smtpmail)
+(require 'gnus)
+(require 'nnmail)
+
+;;(require 'spam)
 
 (setq gnus-select-method '(nnml ""))
 ;;(setq mail-sources '((file :path "~/Mail/8chedao.spool")))
 
-;; (setq gnus-secondary-select-methods
-;;       '((nnimap "8chedao"
-;;                 (nnimap-address "imapcom.263xmail.com")
-;;                 (nnimap-stream network)
-;;                 (nnimap-authenticator login)
-;;                 (nnimap-authinfo-file "~/.authinfo.gpg")
-;;                 (nnimap-port 143))
-;;         ))
+;; 在组视图里按 ^ 键可以进行服务器定制界面，按a添加下面的内容也可以的
+;; (nnimap "Mail"
+;;         (nnimap-address "localhost")
+;;         (nnimap-stream network)
+;;         (nnimap-authenticator login)
+;;         (nnimap-split-inbox "INBOX")
+;;         (nnimap-split-methods
+;;          '(|
+;;            ("X-Spam-Status" "Yes.*" "Spamassassined")
+;;            ("subject" "emacs" "emacs")
+;;            ("subject" "test" "test)"
+;;            ("from" ".*@youtube\\.com" "youtube")
+;;            ("from" ".*@amazon\\.com" "amazon")
+;;            ("from" ".*@nagios\\.com" "nagios")
+;;            ("from" ".*@twitter\\.com" "twitter")
+;;            ("from" ".*@google\\.com" "google")
+;;            "INBOX")))
+
+
+(setq gnus-secondary-select-methods
+      '((nnimap "Mail"
+                (nnimap-address "localhost")
+                (nnimap-stream network)
+                (nnimap-authenticator login)
+                (nnimap-inbox "INBOX")
+                (nnimap-split-methods default))))
 
 ;; filter
-(setq nnimap-split-inbox "INBOX")
-(setq nnimap-split-predicate "UNDELETED")
-(setq nnmail-split-fancy
-      '(|
-        ("X-Spam-Status" "Yes.*" "Spamassassined")
-        ("subject" "emacs" "emacs")
-        ("from" ".*@youtube\\.com" "youtube")
-        ("from" ".*@amazon\\.com" "amazon")
-        ("from" ".*@nagios\\.com" "nagios")
-        ("from" ".*@twitter\\.com" "twitter")
-        ("from" ".*@google\\.com" "google")
-        "INBOX")
-      )
-(setq nnimap-split-rule 'nnmail-split-fancy)
-(setq nnmail-split-methods 'nnmail-split-fancy)
+;; see: spamassassin
 (gnus-registry-initialize)
 
 ;; send mail
