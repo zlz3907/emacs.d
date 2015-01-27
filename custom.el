@@ -60,7 +60,6 @@
  '(semantic-java-dependency-system-include-path (quote ("~/java/jdk1.7.0")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))
- '(smtpmail-smtp-server "smtp.gmail.com")
  '(speedbar-show-unknown-files t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
