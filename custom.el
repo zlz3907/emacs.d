@@ -35,6 +35,8 @@
  '(ede-project-directories
    (quote
     ("/home/zhong/projects/cedet-example/ede-java" "/home/zhong/projects/cedet-example/ede-test")))
+ '(gnus-summary-line-format "%U%R%z%I %d %(%[%4L: %-23,23f%]%) %s
+")
  '(jde-ant-home "~/apache/ant")
  '(jde-ant-program "~/apache/ant/bin/ant")
  '(jde-build-function (quote prj-build))

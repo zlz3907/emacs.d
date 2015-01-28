@@ -33,13 +33,13 @@
 ;;            "INBOX")))
 
 
-(setq gnus-secondary-select-methods
-      '((nnimap "Mail"
-                (nnimap-address "localhost")
-                (nnimap-stream network)
-                (nnimap-authenticator login)
-                (nnimap-inbox "INBOX")
-                (nnimap-split-methods default))))
+;; (setq gnus-secondary-select-methods
+;;       '((nnimap "Mail"
+;;                 (nnimap-address "localhost")
+;;                 (nnimap-stream network)
+;;                 (nnimap-authenticator login)
+;;                 (nnimap-inbox "INBOX")
+;;                 (nnimap-split-methods default))))
 
 ;; filter
 ;; see: spamassassin
