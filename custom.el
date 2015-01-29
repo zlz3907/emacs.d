@@ -47,6 +47,7 @@
  '(large-file-warning-threshold 60000000)
  '(mm-tmp-directory "~/tmp/")
  '(org-agenda-files (quote ("~/org/2014" "~/org/2015")))
+ '(org-ditaa-jar-path "~/gnu/plugins/org-mode/contrib/scripts/ditaa.jar")
  '(org-export-latex-verbatim-wrap
    (quote
     ("\\begin{minted}[bgcolor=mintedbg]{text}
@@ -54,8 +55,7 @@
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives
    (quote
-    (("melpa-stable" . "http://stable.melpa.org/packages/")
-     ("melpa" . "http://melpa.milkbox.net/packages/")
+    (("melpa" . "http://melpa.org/packages/")
      ("org" . "http://orgmode.org/elpa/")
      ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(semantic-idle-scheduler-idle-time 3600)
