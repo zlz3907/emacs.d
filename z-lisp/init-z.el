@@ -64,6 +64,15 @@
    (calc . t)
    (R . t)))
 
+;; 在迷你缓冲区里显示右括号对应的左括号所在的行
+;; (show-paren-mode t)
+;; (defadvice show-paren-function (after my-echo-paren-matching-line activate)
+;;   "If a matching paren is off-screen, echo the matching line."
+;;   (when (char-equal (char-syntax (char-before (point))) ?\))
+;;     (let ((matching-text (blink-matching-open)))
+;;       (when matching-text
+;;         (message matching-text)))))
+
 (require 'ox-taskjuggler)
 
 (require 'init-zorg-capture)
