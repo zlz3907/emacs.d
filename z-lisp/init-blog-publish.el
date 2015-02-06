@@ -11,7 +11,7 @@
 </div><!-- preamble end -->
     <style>
       #content {
-      margin-top: 75px;
+      margin-top: 105px;
       width: 779px;
       align: center;
       margin-left: auto;
@@ -73,7 +73,7 @@
 </main>
 
 <div class=\"callout-quote animation is-animated\">
-<div id=\"disqus_thread\"></div>
+<div id=\"disqus_thread\" class=\"container\"></div>
 <script type=\"text/javascript\">
     var disqus_shortname = '3zso';
     (function() {
@@ -92,7 +92,7 @@
 <div class=\"col-sm-8\">
   <img src=\"/frm/logo/3zso-logo-F2F5F4.svg\" style=\"width:220px\" />
 </div>
-<div class=\"z-cc col-sm-4\">
+<div class=\"z-cc col-sm-4\" style=\"display:none\">
 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
 </div>
 </div></div>
@@ -100,17 +100,20 @@
 
 <footer class=\"site__footer\" role=\"contentinfo\">
         <div class=\"container\">
-<!--
           <small class=\"copyright\">&copy;2015 Zhong Lizhi. Contents licensed under
-<a rel=\"license\" target=\"_blank\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> with attribution required.</small>
--->
-<br />
+<a rel=\"license\" target=\"_blank\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a> with attribution required.
+鄂ICP备13010742号-1
+
+<div style=\"display:none\">
 <script type=\"text/javascript\">
   var cnzz_protocol = ((\"https:\" == document.location.protocol) ? \" https://\" : \" http://\");
   document.write(unescape(\"%%3Cspan id='cnzz_stat_icon_1000216635'%%3E%%3C/span%%3E%%3Cscript src='\"
     + cnzz_protocol
     + \"s22.cnzz.com/z_stat.php%%3Fid%%3D1000216635%%26show%%3Dpic1' type='text/javascript'%%3E%%3C/script%%3E\"));
 </script>
+</div>
+</small>
+
         </div><!-- .container -->
       </footer><!-- .site__footer -->
 </div>
