@@ -89,8 +89,9 @@
 <aside id=\"contact\" class=\"contact\" role=\"secondary\">
 <div class=\"container\">
 <div class=\"row\">
-<div class=\"col-sm-8\">
-  <img src=\"/frm/logo/3zso-logo-F2F5F4.svg\" style=\"width:220px\" />
+<div class=\"col-sm-8\"
+     style=\"background-image: url(/frm/logo/3zso-logo-F2F5F4.svg);background-size: 240px auto;background-repeat: no-repeat;background-position: -48px center;height: 300px;\">
+
 </div>
 <div class=\"z-cc col-sm-4\" style=\"display:none\">
 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
@@ -184,7 +185,7 @@
          )
         ("blog-static"
          :base-directory "~/orgblogs/"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt\\|svg\\|html\\|ttf\\|woff\\|eot"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt\\|svg\\|html\\|ttf\\|woff\\|eot\\|ico"
          :publishing-directory "~/blog/web"
          :recursive t
          :publishing-function org-publish-attachment
