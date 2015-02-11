@@ -52,6 +52,8 @@
    (quote
     ("\\begin{minted}[bgcolor=mintedbg]{text}
 " . "\\end{minted}")))
+ '(org-html-postamble nil)
+ '(org-html-preamble nil)
  '(org-mobile-directory "~/Dropbox/Apps/MobileOrg")
  '(package-archives
    (quote
