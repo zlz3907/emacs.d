@@ -63,9 +63,9 @@
 ;;(z-selectsmtp-hook)
 ;;(add-hook 'message-send-mail-hook 'z-selectsmtp-hook)
 ;;(add-hook 'mail-send-hook 'z-selectsmtp-hook)
-(setq smtpmail-smtp-server "smtp.gmail.com")
-(setq smtpmail-smtp-service 465)
-(setq smtpmail-stream-type 'ssl)
+(setq smtpmail-smtp-server "smtp.3zso.com")
+(setq smtpmail-smtp-service 587)
+;;(setq smtpmail-stream-type nil)
 (setq send-mail-function 'z-selectsmtp-hook)
 (setq message-send-mail-function 'z-selectsmtp-hook)
 
