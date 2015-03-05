@@ -7,7 +7,6 @@
 ;; GLOBAL CONFIGURE
 (require 'helm)
 (require 'helm-config)
-(helm-mode 1)
 
 ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
 ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
@@ -22,7 +21,8 @@
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "C-c h o") 'helm-occur)
-
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-h SPC") 'helm-all-mark-rings)
 
 (when (executable-find "curl")
   (setq helm-google-suggest-use-curl-p t))
@@ -38,6 +38,8 @@
       helm-imenu-fuzzy-match t
       helm-apropos-fuzzy-match t
       helm-locate-fuzzy-match t)
+
+(helm-mode 1)
 
 (provide 'init-helm)
 

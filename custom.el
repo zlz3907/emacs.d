@@ -17,7 +17,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(bbdb-file "~/.bbdb.gpg")
- '(browse-url-browser-function (quote browse-url-firefox))
+ '(browse-url-firefox-new-window-is-tab t)
+ '(browse-url-mozilla-new-window-is-tab t)
  '(c-basic-offset 2)
  '(canlock-password "90e0c564e3c4b436c584cc82b82e76914f7581f7")
  '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
@@ -27,7 +28,7 @@
  '(ecb-options-version "2.40")
  '(ecb-source-path
    (quote
-    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src"
+    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "/media/zhong/3ZSO/workspace/*/src" "~/workspace/*/*/src" "~/projects/*/src"
      ("/" "/"))))
  '(eclim-eclipse-dirs (quote ("~/programs/eclipse")))
  '(eclim-executable "~/programs/eclipse/eclim")
