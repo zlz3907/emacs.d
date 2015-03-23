@@ -25,8 +25,8 @@
 ;;(setq defer-loading-jde nil)
 
 (ac-config-default)
-(ac-set-trigger-key "TAB")
-(ac-set-trigger-key "<tab>")
+;;(ac-set-trigger-key "TAB")
+;;(ac-set-trigger-key "<tab>")
 ;; Dependencies 依赖功能
 ;; YaSnippet 下拉列表功能，补全输入提示时会用到
 (require 'yasnippet)
