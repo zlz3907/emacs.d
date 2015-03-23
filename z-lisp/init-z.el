@@ -43,8 +43,8 @@
 (require 'init-helm)
 
 ;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
-(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 ;;(load-file "~/gnu/plugins/org-mode/contrib/lisp/ox-taskjuggler.el")
 
 ;; plantuml
@@ -73,7 +73,7 @@
 ;;       (when matching-text
 ;;         (message matching-text)))))
 
-(require 'ox-taskjuggler)
+;;(require 'ox-taskjuggler)
 
 (require 'init-zorg-capture)
 
@@ -82,7 +82,7 @@
 (require 'init-youdao-dict)
 ;;(require 'init-jdee)
 ;;(require 'init-eclim)
-(require 'init-java)
+;;(require 'init-java)
 ;;(global-eclim-mode)
 
 (require 'init-gnus)
