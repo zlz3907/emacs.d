@@ -1,0 +1,48 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bliss/.emacs.d/" . "z-lisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bliss/org/2015/online-edu/"
+ "/home/bliss/gnu/plugins/jdee-2.4.1/lisp/"
+ "/home/bliss/.emacs.d/z-lisp/"
+ "/home/bliss/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.org"
+ "init-helm.el"
+ "custom.el"
+ "init.el"
+ "init-z.el"
+ "init-java.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bliss/org/2015/online-edu/" (21771 32201 606478 656000) "context.png" "context.uxf" "../" "./")
+
+ ("/home/bliss/org/2015/" (21796 53550 878064 686000) "#latex-babel.org#" "journal.tex" "onling-edu.pdf" "online-edu.org" "agenda.org" "china-customs-clearance-process.org" "tia-sumary.org" "note.org" "gtd.org" "china-customs-clearance-process.tex" "online-edu.tex" "imgs/" "latex-babel.org" "online-edu/" "res/" "new-edu/" "../" "online-edu.pdf" "journal.org" "./")
+
+ ("/home/bliss/org/2015/new-edu/" (21796 51771 806097 462000) "#project.org#" ".#project.org" "../" "./")
+
+ ("/home/bliss/.i3/" (21784 48760 413528 614000) "config.qwert" "i3status.conf" "config.dvorak" "../" "config" "./")
+
+ ("/home/bliss/mnt/zhong/" (21762 21804 460354 447000) ".thumbnails/" ".i3status.conf~" "mongodb/" ".srecode/" "Pictures/" "apache/" "R/" ".bashrc" ".tidyrc/" "Desktop/" "bin/" ".lesshst" ".config/" "log/" ".gksu.lock" "Downloads/" ".emacs.d/" ".fetchmailrc" "NetBeansProjects/" ".gnome2_private/" ".subversion/" ".ecb-tip-of-day.el" ".bash_logout" ".procmailrc" "Rplots.tex" ".viminfo" ".gnome2/" ".umlet/" ".nnmail-cache" "examples.desktop" ".hplip/" ".xinputrc" ".gconf/" "Templates/" "err.txt" ".pki/" ".m2/" ".mozilla/" ".compiz/" ".fetchmailrc~" ".visualvm/" ".gnus.registry.eioio" ".gphoto/" ".macromedia/" ".mail/" ".selected_editor" ".fonts/" ".nano_history" ".pam_environment" ".texmf-var/" ".ovftool.ssldb" "mnt/" ".gitrc-2.0" ".screenrc" ".bashrc~" ".Xauthority" "uima.log" ".ICEauthority" ".pip/" ".python-eggs/" ".mongorc.js" ".thunderbird/" ".newsrc.eld" "oracle/" ".recentf" ".aliedit/" "data/" "Mail/" ".newsrc" ".mplayer/" ".Xresources" "tmp/" ".mailkeys/" "Videos/" "Documents/" ".npm/" ".rnd" "UMLet/" "blog" ".linuxbrew/" "org" "orgblogs" ".freerdp/" "Public/" ".authinfo.gpg" ".Rhistory" ".vmware/" ".bbdb.gpg" ".i3status.conf" "projects/" ".spamassassin/" ".ido.last" ".shutter/" ".msmtprc" "Music/" ".netbeans-derby/" ".offlineimaprc" ".nbprofiler/" ".dbus/" ".org-timestamps/" "gnu/" ".hardinfo/" ".cache/" ".gnome/" ".gem/" ".adobe/" ".bash_history" "Gnus/" ".remmina/" "Library/" ".eclim/" ".netbeans/" ".w3m/" ".gstreamer-0.10/" "programs/" "java/" ".gvfs/" "dovecot-tmp/" ".java/" ".offlineimap/" ".surfraw.conf" "../" "News/" ".profile" ".xsession-errors" ".gimp-2.8/" ".local/" "workbench.xmi" ".cups/" ".i3/" ".gnupg/" ".rstudio-desktop/" ".rpmdb/" ".xsession-errors.old" "webapps/" ".purple/" "opensources/" "./" "VirtualBox VMs/" ".dbshell" "workspace/" ".xsel.log" ".ivy2/" ".ddd/" "vmware/" ".keysnail.js" ".newsrc-dribble" "WinFonts/" ".dmrc" ".nbi/" ".gitconfig" ".ssh/")
+
+ ("/home/bliss/gnu/plugins/jdee-2.4.1/lisp/" (21766 26640 449232 267000) "jde-plugins.elc" "jde-util.el" "jde-widgets.elc" "jde-dbo.el" "jde-ecj-flymake.el" "jde-juci.el" "jde-ejb.elc" "jde-parse-class.el" "jde-stat.elc" "jde-juci.elc" "jde-parse-expr.el" "jde-bsh.el" "jde-complete.elc" "jde-which-method.el" "jde-java-font-lock.elc" "jde-import.elc" "jde-junit.elc" "jde-class.elc" "jde.el" "jde-tree-widget.el" "jde-complete.el" "jde-java-grammar.el" "jde-bookmark.elc" "jde-gen.el" "jde-custom.el" "jde-parse-expr.elc" "jde-open-source.elc" "jde-dbs.elc" "jde-stat.el" "jde-open-source.el" "efc.el" "jde-javadoc-gen.el" "jde-xref.elc" "jde-which-method.elc" "jde-checkstyle.el" "jde-help.el" "jde-sregex.el" "jde-parse.el" "jde-widgets.el" "jde-refactor.el" "regress.el" "jde-imenu.elc" "jde-gen.elc" "jde-ant.el" "jde-db.elc" "jtags.csh" "jde-javadoc-gen.elc" "jde-ant.elc" "jde-ecj-flymake.elc" "jde-project.elc" "jde-xref.el" "beanshell.el" "jde-jdb.elc" "jde-java-font-lock.el" "jde-ejb.el" "jde-compile.elc" "jde-sregex.elc" "jde-dbs.el" "jde-tree-widget.elc" "jde-custom.elc" "jde-checkstyle.elc" "jde-compile.el" "which.elc" "jde-wiz.elc" "jde-class.el" "jde-java-grammar.elc" "jde.elc" "jcomplete.el" "jde-package.el" "beanshell.elc" "jde-jdb.el" "jde-project.el" "jde-project-file.el" "jde-junit.el" "efc.elc" "jde-project-file.elc" "jde-plugins.el" "jde-javadoc.elc" "jde-bsh.elc" "jde-package.elc" "jde-run.el" "regress.elc" "jde-parse-class.elc" "jde-imenu.el" "jde-compat.el" "jde-db.el" "jde-autoload.el" "jde-bookmark.el" "jde-compat.elc" "jde-bug.elc" "jde-refactor.elc" "jcomplete.elc" "jde-dbo.elc" "jde-annotations.elc" "jde-javadoc.el" "jde-make.el" "jde-import.el" "jtags" "jde-run.elc" "jde-wiz.el" "jde-annotations.el" "which.el" "../" "jde-java-properties.el" "jde-bug.el" "jde-make.elc" "jde-java-properties.elc" "jde-autoload.elc" "jde-util.elc" "jde-parse.elc" "./")
+
+ ("/home/bliss/.emacs.d/z-lisp/" (21764 13674 748064 773000) "pcmpl-git.el" "init-blog-publish.elc" "init-zorg-exportpdf.el" "init-plantuml.el" "init-datetime.elc" "init-plantuml-helper.el" "init-gnus.el" "init-zorg-exportpdf.elc" "init-plantuml.elc" "init-bbdb.el" "init-qiang-set-font.el" "init-gnus.elc" "init-java.el" "init-helm.el" "init-youdao-dict.elc" "init-irc.elc" "init-irc.el" "init-z.el" "vtl.el" "init-jdee.el" "init-helm.elc" "vtl.elc" "init-z.elc" "init-datetime.el" "init-blog-publish.el" "init-java.elc" "init-gnus.el~" "init-bbdb.elc" "init-zorg-capture.elc" "init-youdao-dict.el" "git-options.txt" "init-qiang-set-font.elc" "../" "init-zorg-capture.el" "init-eclim.el" "./" "semantic.cache")
+
+ ("/home/bliss/.emacs.d/" (21764 13676 244072 191000) "README.md" ".session" ".bookmarks.el" "srecode-map.el" "history" "custom.el" "snippets/" ".agignore" "auto-save-list/" ".gitignore" "z-lisp/" "ac-comphist.dat" "abbrev_defs" "custom.el.before_ecb_2.40" ".org-id-locations" "TAGS" "LICENSE" ".smex-items" "ede-projects.el" "recentf" ".location" "elpa/" ".git/" "init.el" ".Rhistory" "eshell/" "url/" "ido.last" "site-lisp/" "var/" "lisp/" "../" "./" "semantic.cache")
+
+ ("/home/bliss/" (21764 4394 974048 859000) ".gnome2_private/" ".keysnail.js" "apache/" "ssd/" ".mozilla/" "Downloads/" "tia.3zso.com" "programs/" "tia.3zso.com.conf" ".w3m/" ".screenrc" ".xsession-errors" ".emacs.d/" ".profile" ".viminfo" "Desktop/" ".i3status.conf" ".gnome2/" ".bash_logout" ".python-eggs/" ".Xauthority" ".bashrc" "log/" ".gnupg/" ".gconf/" ".local/" "gnu/" ".ssh/" ".pip/" "bin/" "java/" ".config/" "mnt/" ".i3/" "../" ".percol.d/" ".dbus/" ".bash_history" ".fonts/" "orgblogs/" "./" ".cache/" "org/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
