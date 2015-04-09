@@ -27,25 +27,11 @@
 (ac-config-default)
 (ac-set-trigger-key "TAB")
 (ac-set-trigger-key "<tab>")
-;; Dependencies 依赖功能
-;; YaSnippet 下拉列表功能，补全输入提示时会用到
-(require 'yasnippet)
-(yas-global-mode 1)
-;;(global-set-key (kbd "M-/") 'yas/expand)
-
-;; Emacs的面向对象的实现包
-;;(require 'eieio)
-
-;; EDE 工程管理负责编译构建
-(require 'ede)
-(require 'srecode)
-(global-ede-mode t)
 
 ;; 代码浏览器，激活后有点像eclipse布局
-(require 'ecb)
+;;(require 'ecb)
 ;;(require 'semantic-java)
 
-(require 'semantic/java)
 
 ;; JDEE Configure 下面这段才是JDEE的相关配置
 ;; (setq defer-loading-jde t)
@@ -74,24 +60,6 @@
 
 ;;(add-hook 'java-mode-hook 'my-jde-mode-hook)
 
-;; Include the following only if you want to run
-;; bash as your shell.
-
-;; Setup Emacs to run bash as its primary shell.
-(require 'shell)
-(setq shell-file-name "bash")
-(setq shell-command-switch "-c")
-(setq explicit-shell-file-name shell-file-name)
-(setenv "SHELL" shell-file-name)
-(setq explicit-bash-args '("-login" "-i"))
-
-(if (eq system-type 'windows-nt)
-    (defadvice browse-url-generic (around show-window act)
-      "*Sets `start-process-show-window' on."
-      (let ((w32-start-process-show-window t))
-        ad-do-it)))
-;; (if (boundp 'w32-quote-process-args)
-;;     (setq w32-quote-process-args ?\")) ;; Include only for MS Windows.
 
 ;; auto complete
 ;;(require 'auto-complete-config)

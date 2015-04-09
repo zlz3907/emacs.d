@@ -28,7 +28,7 @@
  '(ecb-options-version "2.40")
  '(ecb-source-path
    (quote
-    ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "/media/zhong/3ZSO/workspace/*/src" "~/workspace/*/*/src" "~/projects/*/src"
+    ("~/java/jdk1.8.0_40/src.zip" "~/.ivy2/sources/*/*.jar" "/media/zhong/3ZSO/workspace/*/src" "~/workspace/*/*/src" "~/projects/*/src"
      ("/" "/"))))
  '(eclim-eclipse-dirs (quote ("~/programs/eclipse")))
  '(eclim-executable "~/programs/eclipse/eclim")
@@ -47,7 +47,7 @@
     ("~/java/jdk1.8.0_05/src.zip" "~/.ivy2/sources/*/*.jar" "~/workspace/*/*/src" "~/projects/*/src")))
  '(large-file-warning-threshold 60000000)
  '(mm-tmp-directory "~/tmp/")
- '(org-agenda-files (quote ("~/org/2014" "~/org/2015")))
+ '(org-agenda-files (quote ("~/org/2014" "~/org/2015" "~/org")))
  '(org-ditaa-jar-path "~/gnu/plugins/org-mode/contrib/scripts/ditaa.jar")
  '(org-export-latex-verbatim-wrap
    (quote

@@ -8,8 +8,8 @@
 (set-locale-environment "ENU")
 
 ;;(read)
-(setq user-full-name "钟立志")
-(setq user-mail-address "zhonglizhi@8chedao.com")
+(setq user-full-name "Bliss Chung")
+(setq user-mail-address "bliss@3zso.com")
 
 ;; (set 'chinese-calendar-celestial-stem
 ;;      ["甲" "乙" "丙" "丁" "戊" "己" "庚" "辛" "壬" "癸"])
@@ -27,24 +27,24 @@
 
 ;; R Support
 ;;(add-to-list 'load-path "~/gnu/plugins/ess-13.09-1/lisp")
-(require 'ess-site)
-(setq org-babel-R-command "R --slave --no-save")
+;;(require 'ess-site)
+;;(setq org-babel-R-command "R --slave --no-save")
 
 ;; Set Font
 ;; Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial
 ;;(require 'init-bhj-fonts)
 
-(require 'init-qiang-set-font)
-(qiang-set-font
- '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
- ":pixelsize=16"
- '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
+;; (require 'init-qiang-set-font)
+;; (qiang-set-font
+;;  '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
+;;  ":pixelsize=16"
+;;  '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
 
 (require 'init-helm)
 
 ;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
-(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/lisp")
+;;(add-to-list 'load-path "~/gnu/plugins/org-mode/contrib/lisp" t)
 ;;(load-file "~/gnu/plugins/org-mode/contrib/lisp/ox-taskjuggler.el")
 
 ;; plantuml
@@ -82,8 +82,44 @@
 (require 'init-youdao-dict)
 ;;(require 'init-jdee)
 ;;(require 'init-eclim)
-(require 'init-java)
+
+;; Dependencies 依赖功能
+;; YaSnippet 下拉列表功能，补全输入提示时会用到
+(require 'yasnippet)
+(yas-global-mode 1)
+;;(global-set-key (kbd "M-/") 'yas/expand)
+
+;; Emacs的面向对象的实现包
+;;(require 'eieio)
+
+;; EDE 工程管理负责编译构建
+(require 'ede)
+;;(require 'srecode)
+(global-ede-mode t)
+
+(require 'semantic/java)
+;;(require 'init-java)
 ;;(global-eclim-mode)
+;; Include the following only if you want to run
+;; bash as your shell.
+
+;; Setup Emacs to run bash as its primary shell.
+(require 'shell)
+(setq shell-file-name "bash")
+(setq shell-command-switch "-c")
+(setq explicit-shell-file-name shell-file-name)
+(setenv "SHELL" shell-file-name)
+(setq explicit-bash-args '("-login" "-i"))
+
+(if (eq system-type 'windows-nt)
+    (defadvice browse-url-generic (around show-window act)
+      "*Sets `start-process-show-window' on."
+      (let ((w32-start-process-show-window t))
+        ad-do-it)))
+;; (if (boundp 'w32-quote-process-args)
+;;     (setq w32-quote-process-args ?\")) ;; Include only for MS Windows.
+
+(load-file "~/gnu/plugins/ajoke/etc/elisp/ajoke.el")
 
 (require 'init-gnus)
 (require 'init-bbdb)
