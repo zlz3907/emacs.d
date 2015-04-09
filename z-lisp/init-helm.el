@@ -39,6 +39,10 @@
       helm-apropos-fuzzy-match t
       helm-locate-fuzzy-match t)
 
+
+(global-set-key (kbd "M-/") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "M-/") 'ac-complete-with-helm)
+
 (helm-mode 1)
 
 (provide 'init-helm)

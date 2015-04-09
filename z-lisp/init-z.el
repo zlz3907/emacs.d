@@ -73,7 +73,7 @@
 ;;       (when matching-text
 ;;         (message matching-text)))))
 
-(require 'ox-taskjuggler)
+;;(require 'ox-taskjuggler)
 
 (require 'init-zorg-capture)
 
@@ -82,6 +82,7 @@
 (require 'init-youdao-dict)
 ;;(require 'init-jdee)
 ;;(require 'init-eclim)
+
 
 ;; Dependencies 依赖功能
 ;; YaSnippet 下拉列表功能，补全输入提示时会用到
@@ -98,6 +99,7 @@
 (global-ede-mode t)
 
 (require 'semantic/java)
+
 ;;(require 'init-java)
 ;;(global-eclim-mode)
 ;; Include the following only if you want to run
