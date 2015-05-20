@@ -2,11 +2,26 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/" . "api/")
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/" . "service/")
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/" . "enjoylearning/")
+ ("/home/lizhi/workspace/2014/" . "z-vmservlet/")
+ ("/home/lizhi/workspace/2015/" . "enjoylearning-service/")
+ ("/home/lizhi/workspace/" . "2015/")
  ("/home/bliss/.emacs.d/" . "z-lisp/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/lizhi/workspace/2015/enjoylearning-management.wiki/"
+ "/home/lizhi/workspace/2015/enjoylearning-service/"
+ "/home/lizhi/workspace/2015/enjoylearning-admin/"
+ "/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/api/"
+ "/home/lizhi/workspace/2015/enjoylearning-admin/publish/"
+ "/home/lizhi/workspace/2014/z-vmservlet/"
+ "/home/lizhi/workspace/2015/enjoylearning-management/"
+ "/home/lizhi/workspace/2015/enjoylearning/devdocs/"
+ "/home/lizhi/workspace/2015/enjoylearning/src/conf/"
  "/home/bliss/org/2015/online-edu/"
  "/home/bliss/gnu/plugins/jdee-2.4.1/lisp/"
  "/home/bliss/.emacs.d/z-lisp/"
@@ -15,16 +30,78 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "log-quickstart.org"
+ "prj.el"
+ "ApiEmp.java"
+ "log4j2.xml"
+ "capfile"
+ "ivysettings-gitlab.xml"
  "project.org"
+ "tasks.org"
+ "velocity.properties"
  "init-helm.el"
- "custom.el"
- "init.el"
- "init-z.el"
- "init-java.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/lizhi/workspace/2015/enjoylearning-management.wiki/" (21850 65296 463679 668000) "home.markdown" "./" ".git/" ".#home.org" "../")
+
+ ("/home/lizhi/workspace/2014/auto/" (21850 56717 355772 790000) "plugins/" "webapps/" "test/" "WebRoot/" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "pom.xml" "doc/" "prj.el" "capfile" "build.xml" "src/" "devlog" "velocity.log" "README" "bin/" "conf/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/" (21850 53895 743803 417000) "plugins/" "webapps/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "lib/" ".gradle/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/" (21850 56820 239771 673000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" "log4j2.xml" "prj.el" "build.xml" "src/" "lib/" "bin/" "#error#" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/" (21850 53934 651802 995000) "enjoylearning-management/" "MyAndroidProject/" "enjoylearning-service/" "enjoylearning-admin/" "enjoylearning-analyzer/" "./" "z-ci/" "myfirstapp/" "eclimd.log" "cedet-example/" "eclim-t/" "gradle-test/" "MyApplication/" "enjoylearning/" "apptest/" ".recommenders/" "enjoylearning-cas/" ".metadata/" "enjoylearning-sync/" "online-edu/" "../" "eclim-test/" "enjoylearningapp/")
+
+ ("/home/lizhi/workspace/2014/ztools/" (21850 56729 263772 661000) "plugins/" "test/" ".gitmodules" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" "no" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/api/" (21850 55827 735782 446000) "./" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/" (21850 55827 735782 446000) "./" "api/" "college/" "../" "core/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/" (21845 63274 559360 484000) "./" "service/" "cas/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/" (21850 52938 867813 804000) "./" "example/" "enjoylearning/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/example/" (21850 52938 867813 804000) "./" "../")
+
+ ("/home/lizhi/workspace/2014/" (21849 56623 155743 72000) "timetrigger/" "nodejs-async/" "es-cnnc/" "yomode/" "./" "z-vmservlet/" "eclimd.log" "blender-test/" "textlineprocessor/" "degreeinenglish/" "worldcup/" ".recommenders/" ".metadata/" "ztools/" "z-resmgr/" "dbservice/" "auto-xmldata/" "../" "auto/" "subom-analysis/")
+
+ ("/home/lizhi/workspace/2014/ztools/src/" (21849 63343 523670 126000) "./" "log4j2.xml" "com/" "org/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/publish/" (21835 7068 245123 307000) "./" "../")
+
+ ("/home/lizhi/workspace/2014/auto/publish/" (21463 46480 185435 418000) "server.xml" "start.sh" "stop.sh" "./" "capfile" "bin/" "conf/" "../" "ivy.xml")
+
+ ("/home/lizhi/workspace/2014/z-vmservlet/" (21843 29815 466083 567000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "doc/" "prj.el" ".#project.properties" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-cas/" (21843 23241 630154 923000) "plugins/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/z-ci/ivy/settings/" (21842 55787 846513 11000) "ivysettings-shared.xml" "./" "ivysettings.xml" "mysshconfig" "ivy.properties" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-management/" (21842 8724 758542 449000) "enjoylearning-service/" "enjoylearning-admin/" ".gitmodules" ".gitignore" "./" "gitlab-quickstart.log" "gitlab-quickstart.org" "README.org" ".git/" "#README.org#" ".#README.org" "project.org" "../" "gitlab-quickstart.tex" "enjoylearningapp/")
+
+ ("/home/lizhi/" (21835 28619 951817 189000) "Public/" ".umlet/" ".procmailrc" ".gnucash/" "Desktop/" ".mail/" ".selected_editor" ".gimp-2.8/" ".dmrc" ".offlineimap.pyc" "qq-dict.txt" ".newsrc" ".keysnail.js" ".nnmail-cache" ".m2/" "VirtualBox VMs/" ".gitconfig" ".i3status.conf~" ".i3/" ".config/" ".profile" ".thunderbird/" ".jstock/" ".gksu.lock" ".ivy2/" "gnu/" ".pencil/" ".authinfo.gpg" "tmp/" ".local/" ".rnd" ".recentf" ".dict_history" "Gnus/" "gits/" ".offlineimaprc" ".failed-rln" ".shutter/" "apache/" "Mail/" "data/" ".logs/" "Music/" ".java/" ".fetchmailrc~" ".gnus.registry.eioio" "java/" ".dropbox-dist/" "Documents/" "workbench.xmi" "./" "News/" ".ICEauthority" ".xsession-errors.old" "orgblogs/" ".gvfs/" ".bbdb.gpg" ".offlineimaprc~" ".tidyrc" ".gphoto/" ".fehbg" ".python-eggs/" ".netbeans/" ".gkrellm2/" ".lyx/" ".bashrc" ".purple/" "blog/" ".mongorc.js" ".gnome2/" ".bash_history" ".gnome2_private/" "R/" ".gstreamer-0.10/" "Dropbox/" "deja-dup/" "320G/" ".ecb-tip-of-day.el" "examples.desktop" "Pictures/" ".psensor/" "Downloads/" ".pip/" ".xsession-errors" ".dropbox/" ".mozilla/" ".pki/" ".texmf-var/" ".toprc" ".org-timestamps/" ".gnome/" "log/" ".lesshst" ".mailkeys/" ".dbus/" ".msmtprc" ".globalrc" ".ssh/" ".gconf/" ".bash_logout" ".AndroidStudio/" ".offlineimap.py" ".gnupg/" ".gradle/" ".aliedit/" "programs/" "org/" ".thumbnails/" ".nano_history" "mongodb/" ".pam_environment" "mnt/" "Videos/" ".macromedia/" ".subversion/" ".signature" ".visualvm/" "bin/" "Fonts/" ".dbshell" ".bashrc~" ".cpan/" ".adobe/" ".ctags" ".spamassassin/" ".cache/" "oracle/" ".eclim/" ".compiz/" ".mplayer/" ".appdata/" "../" ".android/" "perl5/" ".fonts/" "websites/" ".python_history" ".screenrc" "workspace/" "blog-bak/" "Templates/" ".emacs.d/" ".Xauthority" ".watershed/" ".xinputrc" ".offlineimap/" "lizhi@3zso.3715:1417181531" ".ido.last" ".i3status.conf" ".hardinfo/" ".fetchmailrc" ".w3m/" ".smex-items" "trash/" ".kde/" ".npm/" ".newsrc.eld")
+
+ ("/home/lizhi/org/" (21797 20698 273366 301000) "work_dirs.txt" ".gitignore" "./" "from-mobile.org" "已了解过的开源项目列表.org" ".git/" "2014/" "2015/" "Work.org_archive" "../" "office-project-templates.org" "sync.sh")
+
+ ("/home/lizhi/org/2015/" (21834 7486 271072 624000) "note.org" "journal.org" "#latex-babel.org#" "./" "online-edu.org" "china-customs-clearance-process.org" "journal.tex" "journal.pdf" "agenda.org" "tia-sumary.org" "imgs/" "gtd.org" "china-customs-clearance-process.tex" "online-edu.tex" "onling-edu.pdf" "res/" "online-edu.pdf" "latex-babel.org" "online-edu/" "../")
+
+ ("/home/lizhi/org/2015/online-edu/" (21820 55262 488879 809000) "course-flow.xml" "icons/" "overview.ep" "css/" "./" "context.uxf" "scripts/" "project.tjp" "Plan.html" "context.png" "store-point.tex" "store-point.pdf" "project.org" "../" "store-point.org" "store-point.pyg")
+
+ ("/home/lizhi/workspace/2015/enjoylearning/" (21834 7715 39070 141000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" ".#tasks.org" "dist/" "tasks.org" "README.org" ".git/" "pom.xml" "build.xml" "src/" "lib/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2014/yomode/src/conf/" (21561 14497 445342 213000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "../" "vms-datasource.xml")
+
+ ("/home/lizhi/workspace/2015/enjoylearning/src/" (21831 17545 682625 198000) "./" "../")
+
+ ("/home/lizhi/workspace/" (21681 17483 758526 78000) "R-Study/" "./" "2014/" "emacs/" "2015/" ".metadata/" "2013/" "agenda/" "../")
+
+ ("/home/lizhi/workspace/2014/yomode/" (21563 60493 192402 663000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" ".git/" "doc/" "prj.el" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2014/yomode/src/" (21563 59997 889946 580000) "./" "velocity.properties" "com/" "vm/" "conf/" "../" "VM_global_library.vm")
+
  ("/home/bliss/org/2015/online-edu/" (21771 32201 606478 656000) "context.png" "context.uxf" "../" "./")
 
  ("/home/bliss/org/2015/" (21796 53550 878064 686000) "#latex-babel.org#" "journal.tex" "onling-edu.pdf" "online-edu.org" "agenda.org" "china-customs-clearance-process.org" "tia-sumary.org" "note.org" "gtd.org" "china-customs-clearance-process.tex" "online-edu.tex" "imgs/" "latex-babel.org" "online-edu/" "res/" "new-edu/" "../" "online-edu.pdf" "journal.org" "./")

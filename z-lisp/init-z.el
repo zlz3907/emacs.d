@@ -73,7 +73,7 @@
 ;;       (when matching-text
 ;;         (message matching-text)))))
 
-;;(require 'ox-taskjuggler)
+(require 'ox-taskjuggler)
 
 (require 'init-zorg-capture)
 
@@ -100,7 +100,7 @@
 
 (require 'semantic/java)
 
-;;(require 'init-java)
+(require 'init-java)
 ;;(global-eclim-mode)
 ;; Include the following only if you want to run
 ;; bash as your shell.
@@ -121,7 +121,7 @@
 ;; (if (boundp 'w32-quote-process-args)
 ;;     (setq w32-quote-process-args ?\")) ;; Include only for MS Windows.
 
-(load-file "~/gnu/plugins/ajoke/etc/elisp/ajoke.el")
+;;(load-file "~/gnu/plugins/ajoke/etc/elisp/ajoke.el")
 
 (require 'init-gnus)
 (require 'init-bbdb)
