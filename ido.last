@@ -2,17 +2,31 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/lizhi/workspace/2014/z-resmgr/" . "src/")
+ ("/home/lizhi/workspace/2014/z-resmgr/src/vm/" . "common/")
+ ("/home/lizhi/workspace/2014/z-resmgr/src/com/ztools/resmgr/" . "filters/")
+ ("/home/lizhi/workspace/2014/ztools/src/com/ztools/" . "mail/")
+ ("/home/lizhi/data/z-resmgr/" . "bak/")
+ ("/home/lizhi/data/" . "z-resmgr/")
+ ("/home/lizhi/" . "data/")
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/elad/" . "release/")
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/" . "elad/")
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/admin/" . "release/")
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/" . "src/")
+ ("/home/lizhi/workspace/2015/enjoylearning-management.wiki/" . "res/")
  ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/" . "api/")
  ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/" . "service/")
  ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/" . "enjoylearning/")
- ("/home/lizhi/workspace/2014/" . "z-vmservlet/")
- ("/home/lizhi/workspace/2015/" . "enjoylearning-service/")
+ ("/home/lizhi/workspace/2014/" . "z-resmgr/")
+ ("/home/lizhi/workspace/2015/" . "enjoylearning-admin/")
  ("/home/lizhi/workspace/" . "2015/")
  ("/home/bliss/.emacs.d/" . "z-lisp/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/elad/release/"
+ "/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/release/"
  "/home/lizhi/workspace/2015/enjoylearning-management.wiki/"
  "/home/lizhi/workspace/2015/enjoylearning-service/"
  "/home/lizhi/workspace/2015/enjoylearning-admin/"
@@ -30,6 +44,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "uploadApk.vm"
+ "uploadfile.vm"
  "log-quickstart.org"
  "prj.el"
  "ApiEmp.java"
@@ -38,25 +54,115 @@
  "ivysettings-gitlab.xml"
  "project.org"
  "tasks.org"
- "velocity.properties"
- "init-helm.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/lizhi/workspace/2015/enjoylearning-management.wiki/" (21850 65296 463679 668000) "home.markdown" "./" ".git/" ".#home.org" "../")
+ ("/home/lizhi/workspace/2014/z-vmservlet/" (21864 37387 679305 58000) ".externalToolBuilders/" "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" "README.org" ".git/" "doc/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/" (21863 57501 379912 715000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" "log4j2.xml" "prj.el" "build.xml" "src/" "lib/" "bin/" "#error#" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/elad/release/" (21863 20841 340053 807000) "./" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/" (21865 51802 406563 197000) ".externalToolBuilders/" "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "nbbuild.xml" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "bin/" "../" "ivy.xml" "publish/" ".emacs.desktop")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/" (21860 37804 486482 374000) ".externalToolBuilders/" "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" ".git/" "pom.xml" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "lib/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/conf/" (21860 29425 338573 326000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "configuration.cfg" "../" "vms-datasource.xml")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/vm/common/" (21863 6371 492210 870000) "uploadfile.vm" "./" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/vm/" (21863 6316 556211 466000) "./" "example/" "ajax.vm" "common/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/" (21862 32716 256636 272000) "./" "com/" "vm/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/" (21862 33491 840627 853000) "./" "elad/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/elad/" (21862 33491 840627 853000) "release/" "./" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/vm/example/" (21863 6439 160210 136000) "./" "Upload-bak.vm" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/com/ztools/resmgr/filters/" (21862 65236 376283 282000) "./" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/com/ztools/resmgr/" (21511 2938 510800 799000) "actions/" "dba/" "./" "enums/" "beans/" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/com/ztools/resmgr/actions/" (21862 50088 48447 710000) "./" "Upload.java" "../" "Ap.java")
+
+ ("/home/lizhi/workspace/2014/ztools/src/com/ztools/mail/" (21849 34472 763983 504000) "./" "Base64.java" "IMAP.java" "Mail.java" "../")
+
+ ("/home/lizhi/workspace/2014/ztools/src/com/ztools/" (21511 5616 764081 542000) "mail/" "util/" "stringpro/" "./" "exceptions/" "beans/" "conf/" "rmi/" "../")
+
+ ("/home/lizhi/workspace/2014/ztools/src/com/ztools/util/" (21850 4438 191598 153000) "TxtFilter.java" "MapUtilly.java" "./" "Base64.java" "LogWrapper.java" "MD5Util.java" "../" "ObjectByteUtilly.java" "StringUtilly.java" "Util.java" "FileUtilly.java" "DataUtilly.java")
+
+ ("/home/lizhi/data/z-resmgr/bak/" (21862 39419 340563 513000) "./" "../")
+
+ ("/home/lizhi/data/z-resmgr/" (21862 39419 340563 513000) "./" "bak/" "../")
+
+ ("/home/lizhi/data/" (21862 39419 340563 513000) "oKeyMap.xml" "index/" "14sites/" "spellchecker/" "jian-11/" "cars2/" "field.xml" "./" "jian-11.tar.gz" "nKeyMap.xml" "cars/" "fieldMap.xml" "model/" "field.xml~" "z-resmgr/" "combin.xml" "auto-xmldata/" "old-cardb-sql/" "../" "maptest.xml" "fieldMap.xml~" "mdb/" "auto/")
+
+ ("/home/lizhi/" (21862 26767 416700 844000) "Public/" ".umlet/" ".eclimrc~" ".procmailrc" ".gnucash/" "Desktop/" ".mail/" ".selected_editor" ".gimp-2.8/" ".dmrc" ".offlineimap.pyc" "qq-dict.txt" ".newsrc" ".keysnail.js" ".nnmail-cache" ".gemrc" ".m2/" "VirtualBox VMs/" ".gitconfig" ".i3status.conf~" ".i3/" ".config/" ".profile" ".thunderbird/" ".jstock/" "com.enjoylearning.admin.field.beans.Database.json" ".gksu.lock" ".ivy2/" "gnu/" ".pencil/" ".authinfo.gpg" "tmp/" ".local/" ".eclimrc" ".rnd" ".recentf" ".dict_history" "Gnus/" "gits/" ".offlineimaprc" ".failed-rln" ".shutter/" "apache/" "Mail/" "data/" ".logs/" "Music/" ".java/" ".fetchmailrc~" ".gnus.registry.eioio" "java/" ".dropbox-dist/" "Documents/" "workbench.xmi" ".juju/" "./" "News/" ".ICEauthority" ".xsession-errors.old" "orgblogs/" ".gvfs/" ".bbdb.gpg" ".offlineimaprc~" ".tidyrc" "elm-2015.json" ".gphoto/" ".fehbg" ".python-eggs/" ".netbeans/" ".gkrellm2/" ".lyx/" "creately.log" ".bashrc" ".purple/" "blog/" ".mongorc.js" ".gnome2/" ".bash_history" ".gnome2_private/" "R/" ".gstreamer-0.10/" "Dropbox/" "deja-dup/" "320G/" ".ecb-tip-of-day.el" "examples.desktop" ".vim/" "Pictures/" ".psensor/" "Downloads/" ".pip/" ".xsession-errors" ".dropbox/" "Creately/" "AdobeAIRInstaller.bin" ".mozilla/" ".pki/" ".texmf-var/" ".toprc" ".org-timestamps/" ".gnome/" "log/" ".lesshst" ".mailkeys/" ".dbus/" ".msmtprc" ".globalrc" ".ssh/" ".gconf/" ".bash_logout" ".AndroidStudio/" ".offlineimap.py" ".gnupg/" ".gradle/" ".aliedit/" "programs/" "org/" ".thumbnails/" ".nano_history" "mongodb/" ".pam_environment" "mnt/" "Videos/" ".macromedia/" ".subversion/" ".signature" ".visualvm/" "bin/" "Fonts/" ".dbshell" ".bashrc~" ".cpan/" ".photivo/" ".adobe/" ".ctags" ".spamassassin/" ".cache/" "oracle/" ".eclim/" ".compiz/" ".mplayer/" ".appdata/" "../" ".android/" "perl5/" ".fonts/" "websites/" ".python_history" ".screenrc" "workspace/" "blog-bak/" "Templates/" ".emacs.d/" ".Xauthority" ".watershed/" ".xinputrc" ".offlineimap/" "lizhi@3zso.3715:1417181531" ".ido.last" ".i3status.conf" ".hardinfo/" ".fetchmailrc" ".w3m/" ".smex-items" "trash/" ".kde/" ".npm/" ".newsrc.eld" ".gem/")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/" (21511 2938 510800 799000) "./" "com/" "vm/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2014/z-resmgr/src/conf/" (21528 15607 971727 999000) "custom.properties" "./" "../" "vms-datasource.xml")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/release/" (21862 33175 504631 287000) "uploadfile.vm" "./" "uploadApk.vm" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-management/enjoylearning-admin/" (21835 36505 127731 600000) "plugins/" "webapps/" ".gitmodules" ".gitignore" "./" "WebContent/" "project.properties" "README.org" ".git" "pom.xml" "build.xml" "src/" "../" "ivy.xml")
+
+ ("/home/lizhi/workspace/2014/auto/src/vm/common/" (21484 49940 417213 23000) "left.fvm" "uploadfile.fvm" "syncPage.vm" "optionValueShow.vm" "./" "UploadSingle.fvm" "optionValueSelectedShow.vm" "left.vm" "footer.fvm" "footer.vm" "frm_bottom.fvm" "autoForm_bootstrap.vm" "message.vm" "header.fvm" "selectOptions.fvm" "top.vm" "brandsAndModels_js.vm" "parameterErrorAlert.vm" "head.vm" "frm_top.fvm" "brandsAndModels.vm" "../" "parameterErrorPage.vm" "head.fvm")
+
+ ("/home/lizhi/workspace/2015/enjoylearning/src/conf/" (21832 54590 209507 644000) "custom.properties" "./" "velocity.properties" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning/devdocs/" (21835 1200 519107 312000) "./" "tasks.org" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-management/" (21859 14302 253757 816000) "enjoylearning-service/" "enjoylearning-admin/" ".gitmodules" ".gitignore" "./" "gitlab-quickstart.org" "README.org" ".git/" "gitlab-quickstart.pdf" "project.org" "../" "gitlab-quickstart.tex" "enjoylearningapp/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/publish/" (21845 59934 211396 742000) "start.sh" "stop.sh" "./" "capfile" "bin/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/api/" (21850 62089 851714 474000) "./" "ApiEmp.java" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-service/" (21850 64219 755691 355000) "plugins/" "webapps/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" ".gradle/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-management.wiki/" (21859 6793 597839 319000) ".gitignore" "home.markdown" "./" "about-courseware.md" ".git/" "about-courseware.org" "res/" "log-quickstart.md" "log-quickstart.org" "../")
+
+ ("/home/lizhi/workspace/" (21854 39319 515109 161000) "R-Study/" "test-eclim/" "eclipse/" "./" "eclimd.log" "2014/" "emacs/" "2015/" ".metadata/" "2013/" "agenda/" "../" "RemoteSystemsTempFiles/")
+
+ ("/home/lizhi/workspace/2014/auto/src/" (21475 35799 473004 799000) "./" "velocity.properties" "struts.xml" "com/" "vm/" "log4j.properties" "conf/" "../" "VM_global_library.vm")
+
+ ("/home/lizhi/workspace/2014/auto/src/vm/" (21463 46480 189435 438000) "hello.vm" "action2.vm" "./" "400.vm" "field/" "action2-zero.vm" "ajax.fvm" "Error.fvm" "404.vm" "common/" "verify/" "company/" "model/" "recover/" "vehicle/" "500.vm" "brand/" "../" "follow/" "car/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-admin/src/conf/" (21860 36364 918498 0) "custom.properties" "./" "velocity.properties" "../")
+
+ ("/home/lizhi/workspace/2015/" (21859 7368 685833 77000) "enjoylearning-management/" "MyAndroidProject/" "enjoylearning-service/" "enjoylearning-admin/" "z-dbscheme/" "enjoylearning-analyzer/" "./" "z-ci/" "enjoylearning-management.wiki/" "myfirstapp/" "eclimd.log" "cedet-example/" "eclim-t/" "gradle-test/" "MyApplication/" "enjoylearning/" "apptest/" ".recommenders/" "enjoylearning-cas/" ".metadata/" "enjoylearning-sync/" "online-edu/" "../" "eclim-test/" "enjoylearningapp/")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/" (21859 8567 801820 61000) "./" "com/" "vm/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/com/" (21860 680 350885 339000) "./" "ztools/" "../")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/com/ztools/" (21860 1107 666880 700000) "./" "dbscheme/" "../")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/com/ztools/dbscheme/" (21859 8567 805820 61000) "actions/" "./" "enums/" "db/" "beans/" "../")
+
+ ("/home/lizhi/workspace/2015/z-dbscheme/src/com/ztools/dbscheme/actions/" (21860 6122 46826 272000) "Index.java" "FieldModal.java" "DatabaseModal.java" "./" "TableModal.java" "package-info.java" "FieldAction.java" "Error.java" "../" "Ap.java")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-management.wiki/res/" (21857 54661 958182 179000) "./" "Courseware.svg" "../")
+
+ ("/home/lizhi/java/jdk1.7.0/" (20324 39794 186198 0) "release" "./" "README.html" "src.zip" "jre/" "LICENSE" "jdk1.7.0_03_i586" "include/" "db/" "lib/" "THIRDPARTYLICENSEREADME.txt" "bin/" "COPYRIGHT" "man/" "../")
+
+ ("/home/lizhi/java/" (21815 47052 253605 473000) "android-sdk-linux/" "javafx-sdk2.1.0-beta/" "apidocs/" "./" "adt-bundle-linux-x86_64-20131030/" "jdk1.7.0_03_i586/" "jdk1.8.0_05/" "jre1.7.0_45/" "checkstyle-5.6/" "jdk1.8.0_40/" "jdk1.7.0_03/" "jdk1.7.0/" "../" "javafx-sdk/")
+
+ ("/home/" (21513 50434 293234 830000) "./" "zhong/" "lizhi/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-analyzer/" (21852 2187 176993 992000) "plugins/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" ".git/" "pom.xml" "ivysettings-gitlab.xml" "prj.el" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/" (21852 880 660963 730000) "./" "log4j2.xml" "com/" "conf/" "../")
+
+ ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/conf/" (21851 65365 48939 372000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "configuration.cfg" "../" "vms-datasource.xml" "global.properties")
 
  ("/home/lizhi/workspace/2014/auto/" (21850 56717 355772 790000) "plugins/" "webapps/" "test/" "WebRoot/" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "pom.xml" "doc/" "prj.el" "capfile" "build.xml" "src/" "devlog" "velocity.log" "README" "bin/" "conf/" "../" "ivy.xml" "publish/")
 
- ("/home/lizhi/workspace/2015/enjoylearning-service/" (21850 53895 743803 417000) "plugins/" "webapps/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "lib/" ".gradle/" "bin/" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2015/enjoylearning-admin/" (21850 56820 239771 673000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "pom.xml" "ivysettings-gitlab.xml" "log4j2.xml" "prj.el" "build.xml" "src/" "lib/" "bin/" "#error#" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2015/" (21850 53934 651802 995000) "enjoylearning-management/" "MyAndroidProject/" "enjoylearning-service/" "enjoylearning-admin/" "enjoylearning-analyzer/" "./" "z-ci/" "myfirstapp/" "eclimd.log" "cedet-example/" "eclim-t/" "gradle-test/" "MyApplication/" "enjoylearning/" "apptest/" ".recommenders/" "enjoylearning-cas/" ".metadata/" "enjoylearning-sync/" "online-edu/" "../" "eclim-test/" "enjoylearningapp/")
-
  ("/home/lizhi/workspace/2014/ztools/" (21850 56729 263772 661000) "plugins/" "test/" ".gitmodules" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" "no" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/api/" (21850 55827 735782 446000) "./" "../")
 
  ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/" (21850 55827 735782 446000) "./" "api/" "college/" "../" "core/")
 
@@ -70,19 +176,11 @@
 
  ("/home/lizhi/workspace/2014/ztools/src/" (21849 63343 523670 126000) "./" "log4j2.xml" "com/" "org/" "conf/" "../")
 
- ("/home/lizhi/workspace/2015/enjoylearning-admin/publish/" (21835 7068 245123 307000) "./" "../")
-
  ("/home/lizhi/workspace/2014/auto/publish/" (21463 46480 185435 418000) "server.xml" "start.sh" "stop.sh" "./" "capfile" "bin/" "conf/" "../" "ivy.xml")
-
- ("/home/lizhi/workspace/2014/z-vmservlet/" (21843 29815 466083 567000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" "README.org" ".git/" "doc/" "prj.el" ".#project.properties" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
 
  ("/home/lizhi/workspace/2015/enjoylearning-cas/" (21843 23241 630154 923000) "plugins/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "bin/" "../" "ivy.xml" "publish/")
 
  ("/home/lizhi/workspace/2015/z-ci/ivy/settings/" (21842 55787 846513 11000) "ivysettings-shared.xml" "./" "ivysettings.xml" "mysshconfig" "ivy.properties" "../")
-
- ("/home/lizhi/workspace/2015/enjoylearning-management/" (21842 8724 758542 449000) "enjoylearning-service/" "enjoylearning-admin/" ".gitmodules" ".gitignore" "./" "gitlab-quickstart.log" "gitlab-quickstart.org" "README.org" ".git/" "#README.org#" ".#README.org" "project.org" "../" "gitlab-quickstart.tex" "enjoylearningapp/")
-
- ("/home/lizhi/" (21835 28619 951817 189000) "Public/" ".umlet/" ".procmailrc" ".gnucash/" "Desktop/" ".mail/" ".selected_editor" ".gimp-2.8/" ".dmrc" ".offlineimap.pyc" "qq-dict.txt" ".newsrc" ".keysnail.js" ".nnmail-cache" ".m2/" "VirtualBox VMs/" ".gitconfig" ".i3status.conf~" ".i3/" ".config/" ".profile" ".thunderbird/" ".jstock/" ".gksu.lock" ".ivy2/" "gnu/" ".pencil/" ".authinfo.gpg" "tmp/" ".local/" ".rnd" ".recentf" ".dict_history" "Gnus/" "gits/" ".offlineimaprc" ".failed-rln" ".shutter/" "apache/" "Mail/" "data/" ".logs/" "Music/" ".java/" ".fetchmailrc~" ".gnus.registry.eioio" "java/" ".dropbox-dist/" "Documents/" "workbench.xmi" "./" "News/" ".ICEauthority" ".xsession-errors.old" "orgblogs/" ".gvfs/" ".bbdb.gpg" ".offlineimaprc~" ".tidyrc" ".gphoto/" ".fehbg" ".python-eggs/" ".netbeans/" ".gkrellm2/" ".lyx/" ".bashrc" ".purple/" "blog/" ".mongorc.js" ".gnome2/" ".bash_history" ".gnome2_private/" "R/" ".gstreamer-0.10/" "Dropbox/" "deja-dup/" "320G/" ".ecb-tip-of-day.el" "examples.desktop" "Pictures/" ".psensor/" "Downloads/" ".pip/" ".xsession-errors" ".dropbox/" ".mozilla/" ".pki/" ".texmf-var/" ".toprc" ".org-timestamps/" ".gnome/" "log/" ".lesshst" ".mailkeys/" ".dbus/" ".msmtprc" ".globalrc" ".ssh/" ".gconf/" ".bash_logout" ".AndroidStudio/" ".offlineimap.py" ".gnupg/" ".gradle/" ".aliedit/" "programs/" "org/" ".thumbnails/" ".nano_history" "mongodb/" ".pam_environment" "mnt/" "Videos/" ".macromedia/" ".subversion/" ".signature" ".visualvm/" "bin/" "Fonts/" ".dbshell" ".bashrc~" ".cpan/" ".adobe/" ".ctags" ".spamassassin/" ".cache/" "oracle/" ".eclim/" ".compiz/" ".mplayer/" ".appdata/" "../" ".android/" "perl5/" ".fonts/" "websites/" ".python_history" ".screenrc" "workspace/" "blog-bak/" "Templates/" ".emacs.d/" ".Xauthority" ".watershed/" ".xinputrc" ".offlineimap/" "lizhi@3zso.3715:1417181531" ".ido.last" ".i3status.conf" ".hardinfo/" ".fetchmailrc" ".w3m/" ".smex-items" "trash/" ".kde/" ".npm/" ".newsrc.eld")
 
  ("/home/lizhi/org/" (21797 20698 273366 301000) "work_dirs.txt" ".gitignore" "./" "from-mobile.org" "已了解过的开源项目列表.org" ".git/" "2014/" "2015/" "Work.org_archive" "../" "office-project-templates.org" "sync.sh")
 
@@ -95,8 +193,6 @@
  ("/home/lizhi/workspace/2014/yomode/src/conf/" (21561 14497 445342 213000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "../" "vms-datasource.xml")
 
  ("/home/lizhi/workspace/2015/enjoylearning/src/" (21831 17545 682625 198000) "./" "../")
-
- ("/home/lizhi/workspace/" (21681 17483 758526 78000) "R-Study/" "./" "2014/" "emacs/" "2015/" ".metadata/" "2013/" "agenda/" "../")
 
  ("/home/lizhi/workspace/2014/yomode/" (21563 60493 192402 663000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" ".git/" "doc/" "prj.el" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
 

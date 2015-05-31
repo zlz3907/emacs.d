@@ -81,14 +81,13 @@
 ;;(setq twittering-use-master-password t)
 (require 'init-youdao-dict)
 ;;(require 'init-jdee)
-;;(require 'init-eclim)
 
 
 ;; Dependencies 依赖功能
 ;; YaSnippet 下拉列表功能，补全输入提示时会用到
 (require 'yasnippet)
 (yas-global-mode 1)
-;;(global-set-key (kbd "M-/") 'yas/expand)
+(global-set-key (kbd "C-c TAB") 'yas/expand)
 
 ;; Emacs的面向对象的实现包
 ;;(require 'eieio)
@@ -100,8 +99,10 @@
 
 (require 'semantic/java)
 
-(require 'init-java)
-;;(global-eclim-mode)
+
+;;(require 'init-java)
+(require 'init-eclim)
+
 ;; Include the following only if you want to run
 ;; bash as your shell.
 
@@ -156,6 +157,11 @@
          (process-name (concat "firefox " url))
          (process (apply 'start-process process-name nil
                          browse-url-firefox-program ff-args) )) ))
-;;(require 'neotree)
+(require 'neotree)
+
+(setq session-save-print-spec '(t nil 40000))
+
+(add-to-list 'auto-mode-alist '("\\.vm\\'" . nxml-web-mode))
+(add-to-list 'auto-mode-alist '("\\.fvm\\'" . nxml-web-mode))
 (provide 'init-z)
 ;;; init-z.el ends here

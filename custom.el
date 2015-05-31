@@ -16,6 +16,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(auto-save-file-name-transforms (quote ((".*" "temporary-file-directory" t))))
+ '(backup-by-copying t)
+ '(backup-directory-alist (quote ((".*" . "temporary-file-directory"))))
  '(bbdb-file "~/.bbdb.gpg")
  '(browse-url-firefox-new-window-is-tab t)
  '(browse-url-mozilla-new-window-is-tab t)
@@ -65,7 +68,9 @@
  '(semantic-java-dependency-system-include-path (quote ("~/java/jdk1.7.0")))
  '(semanticdb-default-save-directory "~/tmp/semanticdb")
  '(session-use-package t nil (session))
- '(speedbar-show-unknown-files t))
+ '(speedbar-show-unknown-files t)
+ '(temporary-file-directory "~/tmp/emacs-autoback/")
+ '(window-numbering-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

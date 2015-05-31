@@ -43,8 +43,15 @@
 (global-set-key (kbd "M-/") 'ac-complete-with-helm)
 (define-key ac-complete-mode-map (kbd "M-/") 'ac-complete-with-helm)
 
+(add-hook 'eshell-mode-hook
+          #'(lambda ()
+              (define-key eshell-mode-map (kbd "M-l")  'helm-eshell-history)))
 (helm-mode 1)
 
 (provide 'init-helm)
+
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
 
 ;;; init-helm.el ends here
