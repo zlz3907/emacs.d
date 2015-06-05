@@ -35,3 +35,4 @@ site-lisp/package/
 /eshell
 /server
 *.cache
+projectile-bookmarks.eld
