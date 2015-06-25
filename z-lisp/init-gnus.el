@@ -65,6 +65,8 @@
 ;;(add-hook 'mail-send-hook 'z-selectsmtp-hook)
 (setq smtpmail-smtp-server "smtp.3zso.com")
 (setq smtpmail-smtp-service 587)
+
+
 ;;(setq smtpmail-stream-type nil)
 (setq send-mail-function 'z-selectsmtp-hook)
 (setq message-send-mail-function 'z-selectsmtp-hook)
@@ -108,10 +110,17 @@
         (car result)))))
 
 (defun offlineimap-get-password (host account port)
-  (let* ((netrc (netrc-parse (expand-file-name "~/.authinfo.gpg")))
+  (let* ((netrc (netrc-parse (expand-file-name "~/.mail/.config/.authinfo.gpg")))
          (hostentry (netrc-account-machine netrc host account port port)))
     ;;(message "host: %s" hostentry)
     (when hostentry (netrc-get hostentry "password"))))
+
+;;(message "%s" (offlineimap-get-password "imap.3zso.com" "bliss@3zso.com" "25"))
+;; (setq smtpmail-auth-credentials
+;;       (list (smtpmail-smtp-server
+;;              smtpmail-smtp-service
+;;              "bliss@3zso.com"
+;;              "")))
 
 (provide 'init-gnus)
 

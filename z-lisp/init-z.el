@@ -34,11 +34,11 @@
 ;; Trebuchet MS, Lucida Grande, Tahoma, Verdana, Arial
 ;;(require 'init-bhj-fonts)
 
-;; (require 'init-qiang-set-font)
-;; (qiang-set-font
-;;  '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
-;;  ":pixelsize=16"
-;;  '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
+(require 'init-qiang-set-font)
+(qiang-set-font
+ '("Consolas" "Monaco" "DejaVu Sans Mono" "Monospace" "Courier New")
+ ":pixelsize=22"
+ '("YaHei Consolas Hybrid" "Microsoft Yahei" "黑体" "新宋体" "宋体"))
 
 (require 'init-helm)
 

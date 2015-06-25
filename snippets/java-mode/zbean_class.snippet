@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: zbean_class
+# key: zb
+# --
+package ${1:`(mapconcat 'identity (cdr (member "src" (split-string default-directory "/" t))) ".")`};
+
+${2:import com.ztools.beans.ZBean;}
+
+public class ${3:`(file-name-base
+                    (or (buffer-file-name)
+                        (buffer-name)))`} ${4:extends ZBean} {
+  ${5:private static final long serialVersionUID = 1L;}
+$0
+}

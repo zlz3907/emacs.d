@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/bliss/.emacs.d/snippets/" . "java-mode/")
+ ("/home/bliss/" . ".emacs.d/")
+ ("/home/bliss/workspace/enjoylearning-management/" . "wiki.org/")
+ ("/home/bliss/workspace/" . "controlcenter-elcc.wiki/")
+ ("/etc/resolvconf/" . "resolv.conf.d/")
  ("/home/lizhi/workspace/2014/z-resmgr/" . "src/")
  ("/home/lizhi/workspace/2014/z-resmgr/src/vm/" . "common/")
  ("/home/lizhi/workspace/2014/z-resmgr/src/com/ztools/resmgr/" . "filters/")
@@ -20,11 +25,25 @@
  ("/home/lizhi/workspace/2014/" . "z-resmgr/")
  ("/home/lizhi/workspace/2015/" . "enjoylearning-admin/")
  ("/home/lizhi/workspace/" . "2015/")
- ("/home/bliss/.emacs.d/" . "z-lisp/")
+ ("/home/bliss/.emacs.d/" . "snippets/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/bliss/workspace/enjoylearning-service/"
+ "/home/bliss/workspace/controlcenter-elcc.wiki/"
+ "/home/bliss/workspace/college-elco.wiki/"
+ "/home/bliss/.emacs.d/elpa/yasnippet-20141117.327/snippets/java-mode/"
+ "/home/bliss/workspace/controlcenter-elcc/"
+ "/home/bliss/workspace/queue-elqu/src/com/enjoylearning/queue/"
+ "/home/bliss/workspace/queue-elqu/src/"
+ "/home/bliss/workspace/controlcenter-elcc/src/conf/"
+ "/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/beans/"
+ "/home/bliss/workspace/enjoylearning-management.wiki/"
+ "/home/bliss/workspace/enjoylearning-management/wiki.org/"
+ "/home/bliss/workspace/jcm-rmi/"
+ "/home/bliss/workspace/controlcenter-elcc/src/"
+ "/etc/resolvconf/resolv.conf.d/"
  "/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/elad/release/"
  "/home/lizhi/workspace/2015/enjoylearning-admin/src/vm/release/"
  "/home/lizhi/workspace/2015/enjoylearning-management.wiki/"
@@ -44,20 +63,116 @@
 
 ;; ----- ido-work-file-list -----
 (
- "uploadApk.vm"
- "uploadfile.vm"
- "log-quickstart.org"
- "prj.el"
- "ApiEmp.java"
- "log4j2.xml"
- "capfile"
- "ivysettings-gitlab.xml"
- "project.org"
- "tasks.org"
+ "#!home!bliss!workspace!enjoylearning-service!Topices-template.xml#"
+ "home.org"
+ "home.md"
+ "zbean_class.snippet"
+ "build-client.xml"
+ "KestrelClient.java"
+ "kestrel.thrift"
+ "configuration.cfg"
+ "TaskHandler.java"
+ "rmi-elcc.xml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/bliss/workspace/enjoylearning-service/" (21897 11074 635413 915000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "Topices-template.xml" "build.xml" ".settings/" "build.gradle" "project.properties" "bin/" "./" "../" "ivy.xml" "ELClass-template.xml" "topices.xml" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" "prj.el" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
+
+ ("/home/bliss/workspace/controlcenter-elcc.wiki/" (21895 60127 64706 774000) "./" "../" "home.md" ".git/")
+
+ ("/home/bliss/workspace/" (21895 60093 271281 232000) "push-elpu/" "enjoylearning-management.wiki/" "DynamicWebProject/" "jcm-rmi.wiki/" "z-resmgr/" "enjoylearning-admin/" "kestrelclient/" "enjoylearning-management/" "session-elsn/" "eclimd.log" "controlcenter-elcc.wiki/" "z-dbscheme/" "JavaProject/" "controlcenter-elcc/" "mongo-client/" "z-ci/" "./" "coursewareengine-elce/" "z-vmservlet/" "../" "enjoylearning-cas/" "enjoylearning-analyzer/" "queue-elqu/" "college-elco/" "enjoylearningapp/" "enjoylearning-service/" "ztools/" "jcm-rmi/" ".metadata/" "msg.8chedao/" "z-xml/" "user-elus/" "RemoteSystemsTempFiles/" "kestrel/" "college-elco.wiki/" "enjoylearning-sync/")
+
+ ("/home/bliss/workspace/controlcenter-elcc/" (21895 60020 968343 922000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "build.xml" ".settings/" "project.properties" "./" "client/" "../" "lib/" "ivy.xml" ".ant-targets-build.xml" "docs/" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
+
+ ("/home/bliss/workspace/college-elco.wiki/" (21895 59457 603291 281000) "./" "../" "home.md" "docs/" ".git/")
+
+ ("/home/bliss/workspace/college-elco/" (21895 59415 241709 931000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "build.xml" ".settings/" "project.properties" "./" "client/" "../" "ivy.xml" "docs/" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
+
+ ("/home/bliss/workspace/enjoylearning-service/src/" (21890 34405 825765 99000) "log4j2.xml" "conf/" "appconsessionrmiclient.xml" "appcontextrmiclient.xml" "./" "../" "com/" "vm/")
+
+ ("/home/bliss/workspace/enjoylearning-service/src/com/" (21871 63917 998019 645000) "log4j2.xml" "./" "../" "enjoylearning/")
+
+ ("/home/bliss/workspace/enjoylearning-service/src/com/enjoylearning/" (21890 34405 817765 209000) "mongo/" "cas/" "shiro/" "./" "util/" "../" "actions/" "service/" "entity/")
+
+ ("/home/bliss/workspace/enjoylearning-service/src/com/enjoylearning/service/" (21890 34405 817765 209000) "package-info.java" "SessionService.java" "./" "UserService.java" "../" "api/")
+
+ ("/home/bliss/workspace/enjoylearning-service/src/com/enjoylearning/service/api/" (21891 42289 182133 220000) "./" "../" "ApiEmp.java" "Service.java")
+
+ ("/home/bliss/.emacs.d/elpa/yasnippet-20141117.327/snippets/java-mode/" (21891 34044 163838 895000) "file_class" "println" "ife" "this" "main_class" ".#file_class" "iterator" "method" "testClass" "return" "toString" "import" "param" "cls" "./" "try" "doc" "../" "main" "#!home!bliss!.emacs.d!elpa!yasnippet-20141117.327!snippets!java-mode!file_class#" "new" "test" "fori" "equals" "printf" "apr_assert" "if" "for" "javadoc")
+
+ ("/home/bliss/.emacs.d/z-lisp/" (21887 41329 695886 35000) "init-helm.el" "init-qiang-set-font.el" "semantic.cache" "init-java.el" "init-bbdb.el" "vtl.elc" "init-gnus.elc" "init-java.elc" "init-plantuml-helper.el" "./" "git-options.txt" "init-datetime.el" "init-z.elc" "../" "init-qiang-set-font.elc" "init-gnus.el" "init-gnus.el~" "init-youdao-dict.elc" "init-plantuml.elc" "init-zorg-capture.elc" "pcmpl-git.el" "init-youdao-dict.el" "init-blog-publish.el" "init-datetime.elc" "init-helm-jdee.el" "init-z.el" "init-blog-publish.elc" "init-zorg-capture.el" "init-irc.el" "init-irc.elc" "init-helm.elc" "init-bbdb.elc" "init-eclim.el" "init-jdee.el" "vtl.el" "init-zorg-exportpdf.el" "init-plantuml.el" "init-zorg-exportpdf.elc")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/" (21890 39695 946498 243000) "log4j2.xml" "conf/" "./" "../" "com/" "#!home!bliss!Mail!drafts!*message*-20150615-142909#")
+
+ ("/home/bliss/workspace/enjoylearning-management/wiki.org/" (21890 23570 530563 709000) "log-quickstart.org" "./" "../" "log4j2.org" "about-courseware.org")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/beans/" (21889 11630 65131 390000) "./" "TaskHandler.java" "../" "TaskStatus.java" "RegisterStatus.java" "Task.java")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/conf/" (21889 11850 738341 727000) "rmi-elcc.xml" "configuration.cfg" "./" "../" "vms-datasource.xml" "custom.properties")
+
+ ("/home/bliss/workspace/queue-elqu/src/" (21888 50752 787832 391000) "conf/" "./" "../" "com/")
+
+ ("/home/bliss/workspace/queue-elqu/src/com/enjoylearning/queue/" (21888 51359 764365 174000) "./" "../" "KestrelClient.java" "TKestrelClient.java")
+
+ ("/home/bliss/.emacs.d/snippets/java-mode/" (21882 49752 193653 448000) "modifiers/" "set.yasnippet" ".yas-make-groups" "main.yasnippet" "types/" "thread.yasnippet" "control flow/" "rest-controller.yasnippet" "writer.yasnippet" "println.yasnippet" "tostring.yasnippet" "./" "servlet.yasnippet" "../" "assert.yasnippet" "synchronized.yasnippet" "reader.yasnippet" "test.yasnippet" "package.yasnippet" "list.yasnippet" "servletfilter.yasnippet" "new.yasnippet" "classes/" "hello_world.yasnippet" "sleep.yasnippet" "map.yasnippet" "main-exception.yasnippet" ".gitignore" "import.yasnippet" "exceptions/")
+
+ ("/home/bliss/.emacs.d/snippets/" (21882 49752 189653 535000) "fundamental-mode/" "./" "../" "org-mode/" "plantuml-mode/" "java-mode/")
+
+ ("/home/bliss/.emacs.d/" (21891 33315 292439 737000) "history" "elpa/" "tramp" "projectile-bookmarks.eld" ".org-id-locations" "custom.el" "auto-save-list/" "TAGS" "abbrev_defs" "semantic.cache" "url/" "projectile.cache" "ac-comphist.dat" "eshell/" "org-clock-save.el" ".agignore" "temporary-file-directory/" ".smex-items" "snippets/" "var/" ".location" "./" "../" "ditaa0_9.jar" "LICENSE" "ede-projects.el" "site-lisp/" "z-lisp/" "srecode-map.el" "ido.last" "README.md" "lisp/" ".Rhistory" "custom.el.before_ecb_2.40" ".session" "image-dired/" ".git/" ".bookmarks.el" "recentf" ".gitignore" "init.el")
+
+ ("/home/bliss/" (21891 29297 163172 513000) ".profile" ".mongorc.js" ".asoundrc" ".eclimrc" ".local/" "Templates/" "orgblogs/" ".percol.d/" ".bashrc~" ".config/" ".xmodmaprc" "workspace/" "blog/" ".gitconfig" "tmp/" ".gnome2_private/" ".i3status.conf" ".presage/" "netbeans-8.0.2/" "News/" ".screenrc" "Documents/" "dvorak-wubi/" "java/" ".gnupg/" ".mozilla/" ".eclimrc~" "wpa/" ".newsrc.eld" ".ivy2/" ".mail" "workbench.xmi" "bin/" "./" ".newsrc-dribble" "apache/" ".java/" "../" ".emacs.d/" "Music/" "usb/" "Recordings/" ".Xauthority" ".bash_logout" ".dbshell" ".bash_history" "mnt/" "Downloads/" ".w3m/" ".adobe/" "Public/" "org/" ".cache/" ".screenrc~" "bak/" ".ssh/" "programs/" ".fonts/" "dvorak-wubi.7z" "data/" ".gnus.registry.eioio" ".rnd" "Mail/" "Desktop/" ".dict_history" ".nano_history" "services/" "glassfish-4.1/" ".bashrc" ".vim/" "gnu/" ".nbi/" ".gconf/" ".macromedia/" ".netbeans/" ".xsession-errors" ".gnome2/" ".eclim/" ".keysnail.js" ".newsrc" ".dbus/" ".sudo_as_admin_successful" ".i3/" "mongodb/" "Pictures/" "Videos/" ".offlineimap/" ".lesshst" ".m2/" "mnt2/")
+
+ ("/home/bliss/workspace/college-elco/src/" (21890 22786 545974 491000) "conf/" "./" "../" "com/")
+
+ ("/home/bliss/workspace/college-elco/src/com/" (21890 22786 545974 491000) "./" "../" "enjoylearning/")
+
+ ("/home/bliss/workspace/college-elco/src/com/enjoylearning/" (21890 22786 545974 491000) "./" "../" "college/")
+
+ ("/home/bliss/workspace/college-elco/src/com/enjoylearning/college/" (21890 22786 545974 491000) "beans/" "./" "../")
+
+ ("/home/bliss/workspace/college-elco/src/com/enjoylearning/college/beans/" (21891 32975 533268 922000) "#!home!bliss!workspace!college-elco!src!com!enjoylearning!college!beans!ELClass.java#" "ELClass.java" "./" "Courseware.java" "../" ".#ELClass.java")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/" (21888 58343 13133 444000) "beans/" "./" "../" "IQueueHandler.java" "CCEImpl.java" "ICCE.java" "Elcc.java" "ServiceManager.java" "Queue.java")
+
+ ("/home/bliss/workspace/queue-elqu/" (21887 58207 430626 484000) "pom.xml" "build.xml" "project.properties" "./" "../" "lib/" "ivy.xml" "publish/" "plugins/" "test/" "dist/" ".gitmodules" "src/" ".git/" "build/" ".gitignore")
+
+ ("/home/bliss/.w3m/" (21887 58413 94770 342000) ".arrived" "./" "../" ".sessions" ".cookie")
+
+ ("/home/bliss/workspace/enjoylearning-admin/src/" (21871 63125 923993 976000) "conf/" "./" "../" "com/")
+
+ ("/home/bliss/workspace/enjoylearning-admin/src/conf/" (21871 63125 923993 976000) "configuration.cfg" "./" "../" "vms-velocity-action.xml" "vms-datasource.xml" "custom.properties" "velocity.properties")
+
+ ("/home/bliss/workspace/enjoylearning-admin/publish/conf/" (21871 63125 919994 52000) "configuration.cfg" "./" "../" "vms-velocity-action.xml" "vms-datasource.xml" "custom.properties" "velocity.properties")
+
+ ("/home/bliss/workspace/enjoylearning-admin/publish/" (21871 63125 923993 976000) "conf/" "bin/" "./" "../" "stop.sh" "capfile" "start.sh")
+
+ ("/home/bliss/gnu/plugins/jdee-2.4.1/lisp/" (21868 25149 216176 270000) "efc.el" "jde-junit.elc" "jde-complete.el" "jde-compile.elc" "jde-run.elc" "jde-gen.el" "jde-stat.elc" "jde-xref.el" "jde-bug.elc" "jde-java-properties.el" "jtags" "jde-tree-widget.elc" "regress.el" "jde-imenu.elc" "jde-db.elc" "jde-make.el" "jde-java-font-lock.el" "jde-ejb.el" "jde-ecj-flymake.elc" "jde-bug.el" "jde-gen.elc" "jde-javadoc-gen.el" "beanshell.elc" "jde-sregex.el" "jde-jdb.el" "jde-wiz.el" "jde-compat.el" "jde-refactor.el" "jde-db.el" "jde-parse-class.elc" "jde-package.el" "jde-import.el" "jde-annotations.el" "jde-project.elc" "jde-open-source.el" "jde-bsh.elc" "jde-annotations.elc" "jcomplete.el" "jde-compat.elc" "jde-custom.el" "jde-javadoc.elc" "jde-dbs.elc" "jde-xref.elc" "jde-checkstyle.el" "jde-parse-class.el" "jde-which-method.elc" "./" "jde-refactor.elc" "jde-package.elc" "jde-ant.el" "jde.el" "jde-plugins.el" "jde-juci.el" "jde-java-font-lock.elc" "../" "which.el" "jde-sregex.elc" "jde-bsh.el" "jde-checkstyle.elc" "jde-project-file.elc" "jde-javadoc-gen.elc" "jde-dbo.elc" "regress.elc" "jde-class.el" "which.elc" "jde-java-grammar.el" "jcomplete.elc" "jde-bookmark.el" "jde-import.elc" "jde-compile.el" "jde-parse-expr.elc" "jde-parse-expr.el" "jde-java-properties.elc" "beanshell.el" "jde-jdb.elc" "jde-tree-widget.el" "jde-which-method.el" "jde-plugins.elc" "jde-parse.elc" "jde-make.elc" "jde-custom.elc" "jde-javadoc.el" "jde-project-file.el" "jtags.csh" "jde-ecj-flymake.el" "jde-project.el" "jde-stat.el" "jde-junit.el" "jde-wiz.elc" "jde-autoload.elc" "jde-autoload.el" "jde-ant.elc" "jde-dbs.el" "jde-widgets.el" "jde-class.elc" "jde-run.el" "jde-help.el" "jde-parse.el" "jde-imenu.el" "jde-java-grammar.elc" "jde-widgets.elc" "efc.elc" "jde.elc" "jde-ejb.elc" "jde-complete.elc" "jde-open-source.elc" "jde-juci.elc" "jde-util.el" "jde-bookmark.elc" "jde-util.elc" "jde-dbo.el")
+
+ ("/home/bliss/org/2015/online-edu/" (21868 30506 205015 653000) "scripts/" "course-flow.xml" "context.png" "store-point.org" "./" "icons/" "../" "overview.ep" "project.org" "css/" "context.uxf" "store-point.tex" "project.tjp" "Plan.html")
+
+ ("/etc/resolvconf/resolv.conf.d/" (21878 51902 31453 8000) "head" "base" "../" "base~" "./")
+
+ ("/home/bliss/workspace/jcm-rmi/" (21881 2080 40196 204000) "ivysettings-gitlab.xml" "pom.xml" ".springBeansProject" "build.xml" ".settings/" "project.properties" "./" "../" "lib/" "ivy.xml" "publish/" "plugins/" "test/" "pic/" "dist/" ".project" "prj.el" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore" "README")
+
+ ("/home/bliss/workspace/enjoylearning-management.wiki/" (21881 27022 895429 636000) "about-courseware.md" "log4j2.md" "res/" "./" "../" "home.markdown" "controlcenter.md" "log-quickstart.md" ".git/" ".gitignore")
+
+ ("/home/bliss/org/" (21868 30506 229011 515000) "2014/" "sync.sh" "2015/" "Work.org_archive" "./" "../" "from-mobile.org" "已了解过的开源项目列表.org" "work_dirs.txt" "office-project-templates.org" ".git/" ".gitignore")
+
+ ("/home/bliss/org/2015/" (21886 15971 541471 149000) "china-customs-clearance-process.tex" "#!home!bliss!org!2015!journal.org#" "online-edu.org" "china-customs-clearance-process.org" ".#agenda.org" "journal.tex" "agenda.org" "res/" "./" "../" ".#journal.org" "journal.org" "online-edu.tex" "tia-sumary.org" "imgs/" "#!home!bliss!org!2015!agenda.org#" "latex-babel.org" "gtd.org" "note.org" "online-edu/")
+
+ ("/home/bliss/workspace/enjoylearning-management/" (21881 26986 431749 679000) "enjoylearning-admin/" "./" "../" "README.org" "project.org" "gitlab-quickstart.pdf" "enjoylearningapp/" "wiki.org/" "enjoylearning-service/" ".gitmodules" ".git/" "gitlab-quickstart.org" ".gitignore")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/com/" (21880 64209 985638 271000) "./" "../" "enjoylearning/")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/" (21880 64209 985638 271000) "./" "../" "controlcenter/")
+
+ ("/home/bliss/workspace/enjoylearning-admin/" (21880 6540 185176 188000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "build.xml" "log4j2.xml" "project.properties" "./" "../" "ivy.xml" "publish/" "README.org" "plugins/" "prj.el" ".gitmodules" "src/" ".git/" ".gitignore")
+
+ ("/etc/default/" (21874 27425 851210 374000) "useradd" "locale" "im-config" "halt" "console-setup" "keyboard" "../" "crda" "rsync" "apport" "cacerts" "grub" "dbus" "rcS" "networking" "ufw" "bsdmainutils" "nss" "./" "xfstt" "devpts" "cron" "irqbalance" "ntpdate" "rsyslog" "acpid")
+
+ ("/etc/resolvconf/" (21840 46649 634639 690000) "../" "interface-order" "update.d/" "resolv.conf.d/" "./")
+
  ("/home/bliss/workspace/z-vmservlet/src/com/ztools/vms/dba/" (21872 6572 365126 99000) "DBManager.java" "DbHandler.java" "./" "../" "XmlDbDriver.java" "DBAccess.java" "MongoDB.java")
 
  ("/home/lizhi/workspace/2014/z-vmservlet/" (21864 37387 679305 58000) ".externalToolBuilders/" "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" "README.org" ".git/" "doc/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" "bin/" "../" "ivy.xml" "publish/")
@@ -161,62 +276,6 @@
  ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/" (21852 880 660963 730000) "./" "log4j2.xml" "com/" "conf/" "../")
 
  ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/conf/" (21851 65365 48939 372000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "configuration.cfg" "../" "vms-datasource.xml" "global.properties")
-
- ("/home/lizhi/workspace/2014/auto/" (21850 56717 355772 790000) "plugins/" "webapps/" "test/" "WebRoot/" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "pom.xml" "doc/" "prj.el" "capfile" "build.xml" "src/" "devlog" "velocity.log" "README" "bin/" "conf/" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2014/ztools/" (21850 56729 263772 661000) "plugins/" "test/" ".gitmodules" ".gitignore" "./" "build/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "prj.el" "build.xml" ".classpath" "src/" "lib/" "no" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/service/" (21850 55827 735782 446000) "./" "api/" "college/" "../" "core/")
-
- ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/enjoylearning/" (21845 63274 559360 484000) "./" "service/" "cas/" "../")
-
- ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/" (21850 52938 867813 804000) "./" "example/" "enjoylearning/" "../")
-
- ("/home/lizhi/workspace/2015/enjoylearning-service/src/com/example/" (21850 52938 867813 804000) "./" "../")
-
- ("/home/lizhi/workspace/2014/" (21849 56623 155743 72000) "timetrigger/" "nodejs-async/" "es-cnnc/" "yomode/" "./" "z-vmservlet/" "eclimd.log" "blender-test/" "textlineprocessor/" "degreeinenglish/" "worldcup/" ".recommenders/" ".metadata/" "ztools/" "z-resmgr/" "dbservice/" "auto-xmldata/" "../" "auto/" "subom-analysis/")
-
- ("/home/lizhi/workspace/2014/ztools/src/" (21849 63343 523670 126000) "./" "log4j2.xml" "com/" "org/" "conf/" "../")
-
- ("/home/lizhi/workspace/2014/auto/publish/" (21463 46480 185435 418000) "server.xml" "start.sh" "stop.sh" "./" "capfile" "bin/" "conf/" "../" "ivy.xml")
-
- ("/home/lizhi/workspace/2015/enjoylearning-cas/" (21843 23241 630154 923000) "plugins/" "test/" "build.gradle" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" ".settings/" "project.properties" "dist/" ".git/" "ivysettings-gitlab.xml" ".project" "build.xml" ".classpath" "src/" "bin/" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2015/z-ci/ivy/settings/" (21842 55787 846513 11000) "ivysettings-shared.xml" "./" "ivysettings.xml" "mysshconfig" "ivy.properties" "../")
-
- ("/home/lizhi/org/" (21797 20698 273366 301000) "work_dirs.txt" ".gitignore" "./" "from-mobile.org" "已了解过的开源项目列表.org" ".git/" "2014/" "2015/" "Work.org_archive" "../" "office-project-templates.org" "sync.sh")
-
- ("/home/lizhi/org/2015/" (21834 7486 271072 624000) "note.org" "journal.org" "#latex-babel.org#" "./" "online-edu.org" "china-customs-clearance-process.org" "journal.tex" "journal.pdf" "agenda.org" "tia-sumary.org" "imgs/" "gtd.org" "china-customs-clearance-process.tex" "online-edu.tex" "onling-edu.pdf" "res/" "online-edu.pdf" "latex-babel.org" "online-edu/" "../")
-
- ("/home/lizhi/org/2015/online-edu/" (21820 55262 488879 809000) "course-flow.xml" "icons/" "overview.ep" "css/" "./" "context.uxf" "scripts/" "project.tjp" "Plan.html" "context.png" "store-point.tex" "store-point.pdf" "project.org" "../" "store-point.org" "store-point.pyg")
-
- ("/home/lizhi/workspace/2015/enjoylearning/" (21834 7715 39070 141000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" ".#tasks.org" "dist/" "tasks.org" "README.org" ".git/" "pom.xml" "build.xml" "src/" "lib/" "bin/" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2014/yomode/src/conf/" (21561 14497 445342 213000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "../" "vms-datasource.xml")
-
- ("/home/lizhi/workspace/2015/enjoylearning/src/" (21831 17545 682625 198000) "./" "../")
-
- ("/home/lizhi/workspace/2014/yomode/" (21563 60493 192402 663000) "plugins/" "webapps/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" ".git/" "doc/" "prj.el" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
-
- ("/home/lizhi/workspace/2014/yomode/src/" (21563 59997 889946 580000) "./" "velocity.properties" "com/" "vm/" "conf/" "../" "VM_global_library.vm")
-
- ("/home/bliss/org/2015/online-edu/" (21771 32201 606478 656000) "context.png" "context.uxf" "../" "./")
-
- ("/home/bliss/org/2015/" (21796 53550 878064 686000) "#latex-babel.org#" "journal.tex" "onling-edu.pdf" "online-edu.org" "agenda.org" "china-customs-clearance-process.org" "tia-sumary.org" "note.org" "gtd.org" "china-customs-clearance-process.tex" "online-edu.tex" "imgs/" "latex-babel.org" "online-edu/" "res/" "new-edu/" "../" "online-edu.pdf" "journal.org" "./")
-
- ("/home/bliss/org/2015/new-edu/" (21796 51771 806097 462000) "#project.org#" ".#project.org" "../" "./")
-
- ("/home/bliss/.i3/" (21784 48760 413528 614000) "config.qwert" "i3status.conf" "config.dvorak" "../" "config" "./")
-
- ("/home/bliss/mnt/zhong/" (21762 21804 460354 447000) ".thumbnails/" ".i3status.conf~" "mongodb/" ".srecode/" "Pictures/" "apache/" "R/" ".bashrc" ".tidyrc/" "Desktop/" "bin/" ".lesshst" ".config/" "log/" ".gksu.lock" "Downloads/" ".emacs.d/" ".fetchmailrc" "NetBeansProjects/" ".gnome2_private/" ".subversion/" ".ecb-tip-of-day.el" ".bash_logout" ".procmailrc" "Rplots.tex" ".viminfo" ".gnome2/" ".umlet/" ".nnmail-cache" "examples.desktop" ".hplip/" ".xinputrc" ".gconf/" "Templates/" "err.txt" ".pki/" ".m2/" ".mozilla/" ".compiz/" ".fetchmailrc~" ".visualvm/" ".gnus.registry.eioio" ".gphoto/" ".macromedia/" ".mail/" ".selected_editor" ".fonts/" ".nano_history" ".pam_environment" ".texmf-var/" ".ovftool.ssldb" "mnt/" ".gitrc-2.0" ".screenrc" ".bashrc~" ".Xauthority" "uima.log" ".ICEauthority" ".pip/" ".python-eggs/" ".mongorc.js" ".thunderbird/" ".newsrc.eld" "oracle/" ".recentf" ".aliedit/" "data/" "Mail/" ".newsrc" ".mplayer/" ".Xresources" "tmp/" ".mailkeys/" "Videos/" "Documents/" ".npm/" ".rnd" "UMLet/" "blog" ".linuxbrew/" "org" "orgblogs" ".freerdp/" "Public/" ".authinfo.gpg" ".Rhistory" ".vmware/" ".bbdb.gpg" ".i3status.conf" "projects/" ".spamassassin/" ".ido.last" ".shutter/" ".msmtprc" "Music/" ".netbeans-derby/" ".offlineimaprc" ".nbprofiler/" ".dbus/" ".org-timestamps/" "gnu/" ".hardinfo/" ".cache/" ".gnome/" ".gem/" ".adobe/" ".bash_history" "Gnus/" ".remmina/" "Library/" ".eclim/" ".netbeans/" ".w3m/" ".gstreamer-0.10/" "programs/" "java/" ".gvfs/" "dovecot-tmp/" ".java/" ".offlineimap/" ".surfraw.conf" "../" "News/" ".profile" ".xsession-errors" ".gimp-2.8/" ".local/" "workbench.xmi" ".cups/" ".i3/" ".gnupg/" ".rstudio-desktop/" ".rpmdb/" ".xsession-errors.old" "webapps/" ".purple/" "opensources/" "./" "VirtualBox VMs/" ".dbshell" "workspace/" ".xsel.log" ".ivy2/" ".ddd/" "vmware/" ".keysnail.js" ".newsrc-dribble" "WinFonts/" ".dmrc" ".nbi/" ".gitconfig" ".ssh/")
-
- ("/home/bliss/gnu/plugins/jdee-2.4.1/lisp/" (21766 26640 449232 267000) "jde-plugins.elc" "jde-util.el" "jde-widgets.elc" "jde-dbo.el" "jde-ecj-flymake.el" "jde-juci.el" "jde-ejb.elc" "jde-parse-class.el" "jde-stat.elc" "jde-juci.elc" "jde-parse-expr.el" "jde-bsh.el" "jde-complete.elc" "jde-which-method.el" "jde-java-font-lock.elc" "jde-import.elc" "jde-junit.elc" "jde-class.elc" "jde.el" "jde-tree-widget.el" "jde-complete.el" "jde-java-grammar.el" "jde-bookmark.elc" "jde-gen.el" "jde-custom.el" "jde-parse-expr.elc" "jde-open-source.elc" "jde-dbs.elc" "jde-stat.el" "jde-open-source.el" "efc.el" "jde-javadoc-gen.el" "jde-xref.elc" "jde-which-method.elc" "jde-checkstyle.el" "jde-help.el" "jde-sregex.el" "jde-parse.el" "jde-widgets.el" "jde-refactor.el" "regress.el" "jde-imenu.elc" "jde-gen.elc" "jde-ant.el" "jde-db.elc" "jtags.csh" "jde-javadoc-gen.elc" "jde-ant.elc" "jde-ecj-flymake.elc" "jde-project.elc" "jde-xref.el" "beanshell.el" "jde-jdb.elc" "jde-java-font-lock.el" "jde-ejb.el" "jde-compile.elc" "jde-sregex.elc" "jde-dbs.el" "jde-tree-widget.elc" "jde-custom.elc" "jde-checkstyle.elc" "jde-compile.el" "which.elc" "jde-wiz.elc" "jde-class.el" "jde-java-grammar.elc" "jde.elc" "jcomplete.el" "jde-package.el" "beanshell.elc" "jde-jdb.el" "jde-project.el" "jde-project-file.el" "jde-junit.el" "efc.elc" "jde-project-file.elc" "jde-plugins.el" "jde-javadoc.elc" "jde-bsh.elc" "jde-package.elc" "jde-run.el" "regress.elc" "jde-parse-class.elc" "jde-imenu.el" "jde-compat.el" "jde-db.el" "jde-autoload.el" "jde-bookmark.el" "jde-compat.elc" "jde-bug.elc" "jde-refactor.elc" "jcomplete.elc" "jde-dbo.elc" "jde-annotations.elc" "jde-javadoc.el" "jde-make.el" "jde-import.el" "jtags" "jde-run.elc" "jde-wiz.el" "jde-annotations.el" "which.el" "../" "jde-java-properties.el" "jde-bug.el" "jde-make.elc" "jde-java-properties.elc" "jde-autoload.elc" "jde-util.elc" "jde-parse.elc" "./")
-
- ("/home/bliss/.emacs.d/z-lisp/" (21764 13674 748064 773000) "pcmpl-git.el" "init-blog-publish.elc" "init-zorg-exportpdf.el" "init-plantuml.el" "init-datetime.elc" "init-plantuml-helper.el" "init-gnus.el" "init-zorg-exportpdf.elc" "init-plantuml.elc" "init-bbdb.el" "init-qiang-set-font.el" "init-gnus.elc" "init-java.el" "init-helm.el" "init-youdao-dict.elc" "init-irc.elc" "init-irc.el" "init-z.el" "vtl.el" "init-jdee.el" "init-helm.elc" "vtl.elc" "init-z.elc" "init-datetime.el" "init-blog-publish.el" "init-java.elc" "init-gnus.el~" "init-bbdb.elc" "init-zorg-capture.elc" "init-youdao-dict.el" "git-options.txt" "init-qiang-set-font.elc" "../" "init-zorg-capture.el" "init-eclim.el" "./" "semantic.cache")
-
- ("/home/bliss/.emacs.d/" (21764 13676 244072 191000) "README.md" ".session" ".bookmarks.el" "srecode-map.el" "history" "custom.el" "snippets/" ".agignore" "auto-save-list/" ".gitignore" "z-lisp/" "ac-comphist.dat" "abbrev_defs" "custom.el.before_ecb_2.40" ".org-id-locations" "TAGS" "LICENSE" ".smex-items" "ede-projects.el" "recentf" ".location" "elpa/" ".git/" "init.el" ".Rhistory" "eshell/" "url/" "ido.last" "site-lisp/" "var/" "lisp/" "../" "./" "semantic.cache")
-
- ("/home/bliss/" (21764 4394 974048 859000) ".gnome2_private/" ".keysnail.js" "apache/" "ssd/" ".mozilla/" "Downloads/" "tia.3zso.com" "programs/" "tia.3zso.com.conf" ".w3m/" ".screenrc" ".xsession-errors" ".emacs.d/" ".profile" ".viminfo" "Desktop/" ".i3status.conf" ".gnome2/" ".bash_logout" ".python-eggs/" ".Xauthority" ".bashrc" "log/" ".gnupg/" ".gconf/" ".local/" "gnu/" ".ssh/" ".pip/" "bin/" "java/" ".config/" "mnt/" ".i3/" "../" ".percol.d/" ".dbus/" ".bash_history" ".fonts/" "orgblogs/" "./" ".cache/" "org/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
