@@ -30,6 +30,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/component/"
  "/home/bliss/workspace/enjoylearning-service/"
  "/home/bliss/workspace/controlcenter-elcc.wiki/"
  "/home/bliss/workspace/college-elco.wiki/"
@@ -63,6 +64,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "MdbServiceManager.java"
  "#!home!bliss!workspace!enjoylearning-service!Topices-template.xml#"
  "home.org"
  "home.md"
@@ -72,20 +74,23 @@
  "kestrel.thrift"
  "configuration.cfg"
  "TaskHandler.java"
- "rmi-elcc.xml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/bliss/workspace/enjoylearning-service/" (21897 11074 635413 915000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "Topices-template.xml" "build.xml" ".settings/" "build.gradle" "project.properties" "bin/" "./" "../" "ivy.xml" "ELClass-template.xml" "topices.xml" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" "prj.el" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
+ ("/home/bliss/workspace/college-elco/src/com/enjoylearning/college/beans/" (21904 64742 791643 921000) "CoursewareStatus.java" "Page.java" "ELClass.java" "Topic.java" "LanguageType.java" "AnswerMethod.java" "./" "TopicMode.java" "Scene.java" "Courseware.java" "../" "User.java" "Teacher.java" "subjects/" "TopicType.java" "Student.java" "Classroom.java" "PageStatus.java" "Course.java")
+
+ ("/home/bliss/workspace/college-elco.wiki/" (21904 44415 747681 147000) "home.org" "./" "../" "home.md" "docs/" ".#home.org" ".git/")
+
+ ("/home/bliss/workspace/enjoylearning-service/" (21899 43773 326308 537000) "ivysettings-gitlab.xml" "WebContent/" "Topices-radio.xml" "pom.xml" "Topices-template.xml" "build.xml" ".settings/" "build.gradle" "project.properties" "bin/" "./" "../" "ivy.xml" "ELClass-template.xml" "topices.xml" "publish/" "README.org" "plugins/" "webapps/" "test/" "dist/" ".project" "prj.el" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
+
+ ("/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/component/" (21899 39999 128815 450000) "MdbServiceManager.java" "./" "../" "IServiceSession.java" ".#MdbServiceManager.java" "Dispatcher.java" "ServiceManager.java" "MemServiceManager.java")
 
  ("/home/bliss/workspace/controlcenter-elcc.wiki/" (21895 60127 64706 774000) "./" "../" "home.md" ".git/")
 
  ("/home/bliss/workspace/" (21895 60093 271281 232000) "push-elpu/" "enjoylearning-management.wiki/" "DynamicWebProject/" "jcm-rmi.wiki/" "z-resmgr/" "enjoylearning-admin/" "kestrelclient/" "enjoylearning-management/" "session-elsn/" "eclimd.log" "controlcenter-elcc.wiki/" "z-dbscheme/" "JavaProject/" "controlcenter-elcc/" "mongo-client/" "z-ci/" "./" "coursewareengine-elce/" "z-vmservlet/" "../" "enjoylearning-cas/" "enjoylearning-analyzer/" "queue-elqu/" "college-elco/" "enjoylearningapp/" "enjoylearning-service/" "ztools/" "jcm-rmi/" ".metadata/" "msg.8chedao/" "z-xml/" "user-elus/" "RemoteSystemsTempFiles/" "kestrel/" "college-elco.wiki/" "enjoylearning-sync/")
 
  ("/home/bliss/workspace/controlcenter-elcc/" (21895 60020 968343 922000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "build.xml" ".settings/" "project.properties" "./" "client/" "../" "lib/" "ivy.xml" ".ant-targets-build.xml" "docs/" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
-
- ("/home/bliss/workspace/college-elco.wiki/" (21895 59457 603291 281000) "./" "../" "home.md" "docs/" ".git/")
 
  ("/home/bliss/workspace/college-elco/" (21895 59415 241709 931000) "ivysettings-gitlab.xml" "WebContent/" "pom.xml" "build.xml" ".settings/" "project.properties" "./" "client/" "../" "ivy.xml" "docs/" "publish/" "README.org" "plugins/" "test/" "dist/" ".project" ".gitmodules" ".classpath" "src/" ".git/" "build/" ".gitignore")
 
@@ -130,8 +135,6 @@
  ("/home/bliss/workspace/college-elco/src/com/enjoylearning/" (21890 22786 545974 491000) "./" "../" "college/")
 
  ("/home/bliss/workspace/college-elco/src/com/enjoylearning/college/" (21890 22786 545974 491000) "beans/" "./" "../")
-
- ("/home/bliss/workspace/college-elco/src/com/enjoylearning/college/beans/" (21891 32975 533268 922000) "#!home!bliss!workspace!college-elco!src!com!enjoylearning!college!beans!ELClass.java#" "ELClass.java" "./" "Courseware.java" "../" ".#ELClass.java")
 
  ("/home/bliss/workspace/controlcenter-elcc/src/com/enjoylearning/controlcenter/" (21888 58343 13133 444000) "beans/" "./" "../" "IQueueHandler.java" "CCEImpl.java" "ICCE.java" "Elcc.java" "ServiceManager.java" "Queue.java")
 
@@ -274,8 +277,6 @@
  ("/home/lizhi/workspace/2015/enjoylearning-analyzer/" (21852 2187 176993 992000) "plugins/" "test/" ".gitmodules" ".gitignore" "./" "WebContent/" "build/" "project.properties" "dist/" ".git/" "pom.xml" "ivysettings-gitlab.xml" "prj.el" "build.xml" "src/" "bin/" "../" "ivy.xml" "publish/")
 
  ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/" (21852 880 660963 730000) "./" "log4j2.xml" "com/" "conf/" "../")
-
- ("/home/lizhi/workspace/2015/enjoylearning-analyzer/src/conf/" (21851 65365 48939 372000) "vms-velocity-action.xml" "custom.properties" "./" "velocity.properties" "configuration.cfg" "../" "vms-datasource.xml" "global.properties")
 )
 
 ;; ----- ido-unc-hosts-cache -----
